@@ -1,0 +1,512 @@
+STRATEGY
+
+TIMEFRAMES
+    Entry timeframe = 5 minutes
+    Trend timeframe = 15 minutes
+
+AVAILABLE DATA
+    OHLCV_5M
+    OHLCV_15M
+    VWAP5
+    VWAP15
+
+
+==================================================
+1. DAILY INITIALIZATION
+==================================================
+
+At the start of each trading day:
+
+    trades_today = 0
+    losses_today = 0
+    position = NONE
+
+
+==================================================
+2. EXECUTION FREQUENCY
+==================================================
+
+Evaluate the strategy only when a 5-minute candle CLOSES.
+
+Use the completed 5-minute candle for all entry decisions.
+
+Do not use the currently forming candle.
+
+
+==================================================
+3. TIME GUARDRAILS
+==================================================
+
+IF time >= 15:30 ET:
+
+    DO NOT OPEN NEW POSITION
+
+
+IF time >= 15:55 ET:
+
+    CLOSE any open position
+
+    DO NOT OPEN NEW POSITION
+
+
+==================================================
+4. POSITION GUARDRAIL
+==================================================
+
+IF position != NONE:
+
+    DO NOT LOOK FOR NEW ENTRY
+
+
+==================================================
+5. DAILY TRADE GUARDRAILS
+==================================================
+
+IF trades_today >= 4:
+
+    DO NOT OPEN NEW POSITION
+
+
+IF losses_today >= 2:
+
+    DO NOT OPEN NEW POSITION
+
+
+==================================================
+6. 1-HOUR MOMENTUM
+==================================================
+
+Using 5-minute OHLCV:
+
+    current_5m_close =
+        close of completed 5-minute candle
+
+    close_1h_ago =
+        close of the 5-minute candle
+        12 candles earlier
+
+
+    momentum_1h =
+        ((current_5m_close - close_1h_ago)
+        / close_1h_ago) * 100
+
+
+LONG MOMENTUM:
+
+    momentum_1h >= +0.10%
+
+
+SHORT MOMENTUM:
+
+    momentum_1h <= -0.10%
+
+
+==================================================
+7. VWAP 15-MINUTE TREND
+==================================================
+
+Use VWAP15 values.
+
+    vwap15_current =
+        VWAP15 corresponding to current 5-minute candle
+
+    vwap15_15m_ago =
+        VWAP15 value 15 minutes earlier
+
+
+LONG VWAP CONDITION:
+
+    vwap15_current > vwap15_15m_ago
+
+
+SHORT VWAP CONDITION:
+
+    vwap15_current < vwap15_15m_ago
+
+
+==================================================
+8. PRICE vs VWAP
+==================================================
+
+Use completed 5-minute candle CLOSE.
+
+LONG PRICE CONDITION:
+
+    current_5m_close > vwap15_current
+
+
+SHORT PRICE CONDITION:
+
+    current_5m_close < vwap15_current
+
+
+==================================================
+9. CANDLE DEFINITIONS
+==================================================
+
+For the current 5-minute candle:
+
+    RED =
+        current_5m_close < current_5m_open
+
+    GREEN =
+        current_5m_close > current_5m_open
+
+
+For the previous 5-minute candle:
+
+    previous_RED =
+        previous_5m_close < previous_5m_open
+
+    previous_GREEN =
+        previous_5m_close > previous_5m_open
+
+
+DOJI:
+
+    close == open
+
+    Doji is neither RED nor GREEN.
+
+
+==================================================
+10. LONG TRIGGER
+==================================================
+
+LONG trigger is the FIRST RED candle
+after a GREEN candle.
+
+    current candle = RED
+
+    AND
+
+    previous candle = GREEN
+
+
+The current RED candle must move toward VWAP15.
+
+Define:
+
+    previous_distance_to_vwap =
+        ABS(previous_5m_close - previous_vwap15)
+
+    current_distance_to_vwap =
+        ABS(current_5m_close - current_vwap15)
+
+
+LONG pullback condition:
+
+    current_distance_to_vwap
+        < previous_distance_to_vwap
+
+
+Therefore:
+
+    LONG_TRIGGER =
+
+        current candle is RED
+
+        AND
+
+        previous candle is GREEN
+
+        AND
+
+        current candle is closer to VWAP15
+        than the previous candle
+
+
+==================================================
+11. SHORT TRIGGER
+==================================================
+
+SHORT trigger is the FIRST GREEN candle
+after a RED candle.
+
+    current candle = GREEN
+
+    AND
+
+    previous candle = RED
+
+
+The current GREEN candle must move toward VWAP15.
+
+Define:
+
+    previous_distance_to_vwap =
+        ABS(previous_5m_close - previous_vwap15)
+
+    current_distance_to_vwap =
+        ABS(current_5m_close - current_vwap15)
+
+
+SHORT pullback condition:
+
+    current_distance_to_vwap
+        < previous_distance_to_vwap
+
+
+Therefore:
+
+    SHORT_TRIGGER =
+
+        current candle is GREEN
+
+        AND
+
+        previous candle is RED
+
+        AND
+
+        current candle is closer to VWAP15
+        than the previous candle
+
+
+==================================================
+12. LONG ENTRY
+==================================================
+
+LONG_SETUP =
+
+    position == NONE
+
+    AND
+
+    trades_today < 4
+
+    AND
+
+    losses_today < 2
+
+    AND
+
+    time < 15:30 ET
+
+    AND
+
+    current_5m_close > vwap15_current
+
+    AND
+
+    vwap15_current > vwap15_15m_ago
+
+    AND
+
+    momentum_1h >= +0.10%
+
+    AND
+
+    current candle is RED
+
+    AND
+
+    previous candle is GREEN
+
+    AND
+
+    current candle is closer to VWAP15
+    than previous candle
+
+
+IF LONG_SETUP == TRUE:
+
+    ENTER LONG
+
+    trades_today = trades_today + 1
+
+    position = LONG
+
+
+==================================================
+13. SHORT ENTRY
+==================================================
+
+SHORT_SETUP =
+
+    position == NONE
+
+    AND
+
+    trades_today < 4
+
+    AND
+
+    losses_today < 2
+
+    AND
+
+    time < 15:30 ET
+
+    AND
+
+    current_5m_close < vwap15_current
+
+    AND
+
+    vwap15_current < vwap15_15m_ago
+
+    AND
+
+    momentum_1h <= -0.10%
+
+    AND
+
+    current candle is GREEN
+
+    AND
+
+    previous candle is RED
+
+    AND
+
+    current candle is closer to VWAP15
+    than previous candle
+
+
+IF SHORT_SETUP == TRUE:
+
+    ENTER SHORT
+
+    trades_today = trades_today + 1
+
+    position = SHORT
+
+
+==================================================
+14. LONG EXIT
+==================================================
+
+After entering LONG:
+
+    STOP LOSS:
+        Entry price - 40
+
+    TAKE PROFIT:
+        Entry price + 80
+
+
+If STOP LOSS is hit:
+
+    CLOSE LONG
+
+    losses_today = losses_today + 1
+
+    position = NONE
+
+
+If TAKE PROFIT is hit:
+
+    CLOSE LONG
+
+    position = NONE
+
+
+If time >= 15:55 ET:
+
+    CLOSE LONG
+
+    position = NONE
+
+
+==================================================
+15. SHORT EXIT
+==================================================
+
+After entering SHORT:
+
+    STOP LOSS:
+        Entry price + 50
+
+    TAKE PROFIT:
+        Entry price - 80
+
+
+If STOP LOSS is hit:
+
+    CLOSE SHORT
+
+    losses_today = losses_today + 1
+
+    position = NONE
+
+
+If TAKE PROFIT is hit:
+
+    CLOSE SHORT
+
+    position = NONE
+
+
+If time >= 15:55 ET:
+
+    CLOSE SHORT
+
+    position = NONE
+
+
+==================================================
+16. END-OF-DAY RESET
+==================================================
+
+After the trading session ends:
+
+    position = NONE
+
+    trades_today = 0
+
+    losses_today = 0
+
+
+==================================================
+17. MAIN STRATEGY LOOP
+==================================================
+
+FOR every completed 5-minute candle:
+
+    update OHLCV_5M
+
+    update OHLCV_15M
+
+    update VWAP15
+
+    IF existing position:
+
+        check STOP LOSS
+
+        check TAKE PROFIT
+
+        IF time >= 15:55 ET:
+            close position
+
+
+    IF no position:
+
+        IF time >= 15:30 ET:
+            skip entry
+
+        ELSE IF trades_today >= 4:
+            skip entry
+
+        ELSE IF losses_today >= 2:
+            skip entry
+
+        ELSE:
+
+            calculate 1-hour momentum
+
+            calculate VWAP15 direction
+
+            calculate price vs VWAP15
+
+            identify candle colors
+
+            calculate distance to VWAP15
+
+
+            IF LONG_SETUP:
+                ENTER LONG
+
+
+            ELSE IF SHORT_SETUP:
+                ENTER SHORT

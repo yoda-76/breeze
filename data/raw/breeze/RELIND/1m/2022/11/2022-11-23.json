@@ -1,0 +1,3775 @@
+{
+    "stock_code": "RELIND",
+    "exchange_code": "NSE",
+    "product_type": "cash",
+    "interval": "1minute",
+    "date": "2022-11-23",
+    "market_start": "2022-11-23T09:00:00.000Z",
+    "market_end": "2022-11-23T15:45:00.000Z",
+    "request_from": "2022-11-23T09:00:00.000Z",
+    "request_to": "2022-11-24T15:45:00.000Z",
+    "total_candles": 376,
+    "status": "data",
+    "data": [
+        {
+            "close": 2575.0,
+            "datetime": "2022-11-23 09:07:00",
+            "exchange_code": "NSE",
+            "high": 2575.0,
+            "low": 2575.0,
+            "open": 2575.0,
+            "stock_code": "RELIND",
+            "volume": 17776
+        },
+        {
+            "close": 2565.65,
+            "datetime": "2022-11-23 09:15:00",
+            "exchange_code": "NSE",
+            "high": 2577.9,
+            "low": 2565.2,
+            "open": 2577.9,
+            "stock_code": "RELIND",
+            "volume": 58285
+        },
+        {
+            "close": 2566.3,
+            "datetime": "2022-11-23 09:16:00",
+            "exchange_code": "NSE",
+            "high": 2568.65,
+            "low": 2565.0,
+            "open": 2566.0,
+            "stock_code": "RELIND",
+            "volume": 42457
+        },
+        {
+            "close": 2566.15,
+            "datetime": "2022-11-23 09:17:00",
+            "exchange_code": "NSE",
+            "high": 2567.25,
+            "low": 2565.0,
+            "open": 2566.15,
+            "stock_code": "RELIND",
+            "volume": 25916
+        },
+        {
+            "close": 2568.5,
+            "datetime": "2022-11-23 09:18:00",
+            "exchange_code": "NSE",
+            "high": 2570.3,
+            "low": 2566.15,
+            "open": 2566.15,
+            "stock_code": "RELIND",
+            "volume": 19686
+        },
+        {
+            "close": 2571.05,
+            "datetime": "2022-11-23 09:19:00",
+            "exchange_code": "NSE",
+            "high": 2572.2,
+            "low": 2568.45,
+            "open": 2568.45,
+            "stock_code": "RELIND",
+            "volume": 20896
+        },
+        {
+            "close": 2570.2,
+            "datetime": "2022-11-23 09:20:00",
+            "exchange_code": "NSE",
+            "high": 2572.2,
+            "low": 2570.0,
+            "open": 2571.0,
+            "stock_code": "RELIND",
+            "volume": 12670
+        },
+        {
+            "close": 2571.0,
+            "datetime": "2022-11-23 09:21:00",
+            "exchange_code": "NSE",
+            "high": 2574.0,
+            "low": 2570.0,
+            "open": 2570.2,
+            "stock_code": "RELIND",
+            "volume": 15755
+        },
+        {
+            "close": 2568.6,
+            "datetime": "2022-11-23 09:22:00",
+            "exchange_code": "NSE",
+            "high": 2570.95,
+            "low": 2568.5,
+            "open": 2570.95,
+            "stock_code": "RELIND",
+            "volume": 12185
+        },
+        {
+            "close": 2566.55,
+            "datetime": "2022-11-23 09:23:00",
+            "exchange_code": "NSE",
+            "high": 2568.6,
+            "low": 2566.25,
+            "open": 2568.6,
+            "stock_code": "RELIND",
+            "volume": 11882
+        },
+        {
+            "close": 2568.7,
+            "datetime": "2022-11-23 09:24:00",
+            "exchange_code": "NSE",
+            "high": 2569.0,
+            "low": 2566.3,
+            "open": 2566.55,
+            "stock_code": "RELIND",
+            "volume": 9655
+        },
+        {
+            "close": 2569.55,
+            "datetime": "2022-11-23 09:25:00",
+            "exchange_code": "NSE",
+            "high": 2569.65,
+            "low": 2568.6,
+            "open": 2568.85,
+            "stock_code": "RELIND",
+            "volume": 6314
+        },
+        {
+            "close": 2571.5,
+            "datetime": "2022-11-23 09:26:00",
+            "exchange_code": "NSE",
+            "high": 2572.0,
+            "low": 2569.45,
+            "open": 2569.65,
+            "stock_code": "RELIND",
+            "volume": 8768
+        },
+        {
+            "close": 2571.55,
+            "datetime": "2022-11-23 09:27:00",
+            "exchange_code": "NSE",
+            "high": 2573.0,
+            "low": 2571.0,
+            "open": 2571.7,
+            "stock_code": "RELIND",
+            "volume": 9499
+        },
+        {
+            "close": 2572.0,
+            "datetime": "2022-11-23 09:28:00",
+            "exchange_code": "NSE",
+            "high": 2572.9,
+            "low": 2571.65,
+            "open": 2571.95,
+            "stock_code": "RELIND",
+            "volume": 8327
+        },
+        {
+            "close": 2571.0,
+            "datetime": "2022-11-23 09:29:00",
+            "exchange_code": "NSE",
+            "high": 2572.3,
+            "low": 2570.5,
+            "open": 2571.65,
+            "stock_code": "RELIND",
+            "volume": 6032
+        },
+        {
+            "close": 2571.9,
+            "datetime": "2022-11-23 09:30:00",
+            "exchange_code": "NSE",
+            "high": 2571.9,
+            "low": 2570.85,
+            "open": 2570.95,
+            "stock_code": "RELIND",
+            "volume": 8869
+        },
+        {
+            "close": 2571.35,
+            "datetime": "2022-11-23 09:31:00",
+            "exchange_code": "NSE",
+            "high": 2572.0,
+            "low": 2570.7,
+            "open": 2571.9,
+            "stock_code": "RELIND",
+            "volume": 7003
+        },
+        {
+            "close": 2572.25,
+            "datetime": "2022-11-23 09:32:00",
+            "exchange_code": "NSE",
+            "high": 2573.0,
+            "low": 2571.3,
+            "open": 2571.3,
+            "stock_code": "RELIND",
+            "volume": 15325
+        },
+        {
+            "close": 2571.5,
+            "datetime": "2022-11-23 09:33:00",
+            "exchange_code": "NSE",
+            "high": 2572.25,
+            "low": 2571.5,
+            "open": 2572.25,
+            "stock_code": "RELIND",
+            "volume": 4556
+        },
+        {
+            "close": 2573.15,
+            "datetime": "2022-11-23 09:34:00",
+            "exchange_code": "NSE",
+            "high": 2574.45,
+            "low": 2571.3,
+            "open": 2571.5,
+            "stock_code": "RELIND",
+            "volume": 17319
+        },
+        {
+            "close": 2571.95,
+            "datetime": "2022-11-23 09:35:00",
+            "exchange_code": "NSE",
+            "high": 2573.45,
+            "low": 2571.55,
+            "open": 2573.0,
+            "stock_code": "RELIND",
+            "volume": 8429
+        },
+        {
+            "close": 2570.9,
+            "datetime": "2022-11-23 09:36:00",
+            "exchange_code": "NSE",
+            "high": 2571.9,
+            "low": 2570.0,
+            "open": 2571.9,
+            "stock_code": "RELIND",
+            "volume": 9112
+        },
+        {
+            "close": 2570.55,
+            "datetime": "2022-11-23 09:37:00",
+            "exchange_code": "NSE",
+            "high": 2571.85,
+            "low": 2570.0,
+            "open": 2570.9,
+            "stock_code": "RELIND",
+            "volume": 5762
+        },
+        {
+            "close": 2568.75,
+            "datetime": "2022-11-23 09:38:00",
+            "exchange_code": "NSE",
+            "high": 2570.55,
+            "low": 2567.4,
+            "open": 2570.55,
+            "stock_code": "RELIND",
+            "volume": 12224
+        },
+        {
+            "close": 2567.95,
+            "datetime": "2022-11-23 09:39:00",
+            "exchange_code": "NSE",
+            "high": 2568.7,
+            "low": 2567.75,
+            "open": 2567.95,
+            "stock_code": "RELIND",
+            "volume": 3579
+        },
+        {
+            "close": 2567.35,
+            "datetime": "2022-11-23 09:40:00",
+            "exchange_code": "NSE",
+            "high": 2567.95,
+            "low": 2565.2,
+            "open": 2567.9,
+            "stock_code": "RELIND",
+            "volume": 16899
+        },
+        {
+            "close": 2566.75,
+            "datetime": "2022-11-23 09:41:00",
+            "exchange_code": "NSE",
+            "high": 2567.5,
+            "low": 2566.1,
+            "open": 2567.5,
+            "stock_code": "RELIND",
+            "volume": 6937
+        },
+        {
+            "close": 2567.5,
+            "datetime": "2022-11-23 09:42:00",
+            "exchange_code": "NSE",
+            "high": 2568.0,
+            "low": 2566.0,
+            "open": 2566.8,
+            "stock_code": "RELIND",
+            "volume": 6913
+        },
+        {
+            "close": 2566.6,
+            "datetime": "2022-11-23 09:43:00",
+            "exchange_code": "NSE",
+            "high": 2567.35,
+            "low": 2565.4,
+            "open": 2566.8,
+            "stock_code": "RELIND",
+            "volume": 5725
+        },
+        {
+            "close": 2566.0,
+            "datetime": "2022-11-23 09:44:00",
+            "exchange_code": "NSE",
+            "high": 2567.4,
+            "low": 2566.0,
+            "open": 2566.6,
+            "stock_code": "RELIND",
+            "volume": 3491
+        },
+        {
+            "close": 2566.0,
+            "datetime": "2022-11-23 09:45:00",
+            "exchange_code": "NSE",
+            "high": 2566.1,
+            "low": 2565.9,
+            "open": 2566.05,
+            "stock_code": "RELIND",
+            "volume": 4672
+        },
+        {
+            "close": 2567.1,
+            "datetime": "2022-11-23 09:46:00",
+            "exchange_code": "NSE",
+            "high": 2567.65,
+            "low": 2564.4,
+            "open": 2566.1,
+            "stock_code": "RELIND",
+            "volume": 22455
+        },
+        {
+            "close": 2566.3,
+            "datetime": "2022-11-23 09:47:00",
+            "exchange_code": "NSE",
+            "high": 2567.55,
+            "low": 2566.25,
+            "open": 2567.1,
+            "stock_code": "RELIND",
+            "volume": 6150
+        },
+        {
+            "close": 2567.8,
+            "datetime": "2022-11-23 09:48:00",
+            "exchange_code": "NSE",
+            "high": 2567.8,
+            "low": 2566.3,
+            "open": 2566.3,
+            "stock_code": "RELIND",
+            "volume": 6104
+        },
+        {
+            "close": 2567.7,
+            "datetime": "2022-11-23 09:49:00",
+            "exchange_code": "NSE",
+            "high": 2567.95,
+            "low": 2567.7,
+            "open": 2567.75,
+            "stock_code": "RELIND",
+            "volume": 3349
+        },
+        {
+            "close": 2569.9,
+            "datetime": "2022-11-23 09:50:00",
+            "exchange_code": "NSE",
+            "high": 2569.9,
+            "low": 2567.65,
+            "open": 2567.8,
+            "stock_code": "RELIND",
+            "volume": 4715
+        },
+        {
+            "close": 2569.0,
+            "datetime": "2022-11-23 09:51:00",
+            "exchange_code": "NSE",
+            "high": 2570.0,
+            "low": 2568.3,
+            "open": 2569.85,
+            "stock_code": "RELIND",
+            "volume": 6790
+        },
+        {
+            "close": 2567.6,
+            "datetime": "2022-11-23 09:52:00",
+            "exchange_code": "NSE",
+            "high": 2569.0,
+            "low": 2567.6,
+            "open": 2569.0,
+            "stock_code": "RELIND",
+            "volume": 5185
+        },
+        {
+            "close": 2566.25,
+            "datetime": "2022-11-23 09:53:00",
+            "exchange_code": "NSE",
+            "high": 2567.6,
+            "low": 2566.05,
+            "open": 2567.6,
+            "stock_code": "RELIND",
+            "volume": 5405
+        },
+        {
+            "close": 2565.4,
+            "datetime": "2022-11-23 09:54:00",
+            "exchange_code": "NSE",
+            "high": 2566.45,
+            "low": 2565.25,
+            "open": 2566.3,
+            "stock_code": "RELIND",
+            "volume": 5197
+        },
+        {
+            "close": 2566.8,
+            "datetime": "2022-11-23 09:55:00",
+            "exchange_code": "NSE",
+            "high": 2566.8,
+            "low": 2565.25,
+            "open": 2565.25,
+            "stock_code": "RELIND",
+            "volume": 3890
+        },
+        {
+            "close": 2565.15,
+            "datetime": "2022-11-23 09:56:00",
+            "exchange_code": "NSE",
+            "high": 2566.95,
+            "low": 2565.1,
+            "open": 2566.8,
+            "stock_code": "RELIND",
+            "volume": 5037
+        },
+        {
+            "close": 2562.75,
+            "datetime": "2022-11-23 09:57:00",
+            "exchange_code": "NSE",
+            "high": 2565.4,
+            "low": 2561.65,
+            "open": 2564.5,
+            "stock_code": "RELIND",
+            "volume": 19962
+        },
+        {
+            "close": 2562.45,
+            "datetime": "2022-11-23 09:58:00",
+            "exchange_code": "NSE",
+            "high": 2562.55,
+            "low": 2561.15,
+            "open": 2562.5,
+            "stock_code": "RELIND",
+            "volume": 10492
+        },
+        {
+            "close": 2562.7,
+            "datetime": "2022-11-23 09:59:00",
+            "exchange_code": "NSE",
+            "high": 2563.0,
+            "low": 2561.8,
+            "open": 2562.45,
+            "stock_code": "RELIND",
+            "volume": 6719
+        },
+        {
+            "close": 2560.4,
+            "datetime": "2022-11-23 10:00:00",
+            "exchange_code": "NSE",
+            "high": 2562.9,
+            "low": 2560.1,
+            "open": 2562.9,
+            "stock_code": "RELIND",
+            "volume": 17677
+        },
+        {
+            "close": 2561.2,
+            "datetime": "2022-11-23 10:01:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2560.0,
+            "open": 2561.5,
+            "stock_code": "RELIND",
+            "volume": 9770
+        },
+        {
+            "close": 2562.95,
+            "datetime": "2022-11-23 10:02:00",
+            "exchange_code": "NSE",
+            "high": 2563.0,
+            "low": 2560.05,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 4896
+        },
+        {
+            "close": 2563.95,
+            "datetime": "2022-11-23 10:03:00",
+            "exchange_code": "NSE",
+            "high": 2564.4,
+            "low": 2562.1,
+            "open": 2563.0,
+            "stock_code": "RELIND",
+            "volume": 7551
+        },
+        {
+            "close": 2563.75,
+            "datetime": "2022-11-23 10:04:00",
+            "exchange_code": "NSE",
+            "high": 2563.95,
+            "low": 2562.75,
+            "open": 2563.7,
+            "stock_code": "RELIND",
+            "volume": 4820
+        },
+        {
+            "close": 2563.5,
+            "datetime": "2022-11-23 10:05:00",
+            "exchange_code": "NSE",
+            "high": 2563.65,
+            "low": 2563.0,
+            "open": 2563.25,
+            "stock_code": "RELIND",
+            "volume": 4354
+        },
+        {
+            "close": 2563.05,
+            "datetime": "2022-11-23 10:06:00",
+            "exchange_code": "NSE",
+            "high": 2563.5,
+            "low": 2562.8,
+            "open": 2563.5,
+            "stock_code": "RELIND",
+            "volume": 5039
+        },
+        {
+            "close": 2563.05,
+            "datetime": "2022-11-23 10:07:00",
+            "exchange_code": "NSE",
+            "high": 2563.4,
+            "low": 2562.1,
+            "open": 2563.0,
+            "stock_code": "RELIND",
+            "volume": 3198
+        },
+        {
+            "close": 2562.05,
+            "datetime": "2022-11-23 10:08:00",
+            "exchange_code": "NSE",
+            "high": 2563.0,
+            "low": 2562.0,
+            "open": 2562.45,
+            "stock_code": "RELIND",
+            "volume": 2913
+        },
+        {
+            "close": 2561.7,
+            "datetime": "2022-11-23 10:09:00",
+            "exchange_code": "NSE",
+            "high": 2562.35,
+            "low": 2561.7,
+            "open": 2562.35,
+            "stock_code": "RELIND",
+            "volume": 3877
+        },
+        {
+            "close": 2560.5,
+            "datetime": "2022-11-23 10:10:00",
+            "exchange_code": "NSE",
+            "high": 2561.9,
+            "low": 2560.5,
+            "open": 2561.9,
+            "stock_code": "RELIND",
+            "volume": 4141
+        },
+        {
+            "close": 2560.2,
+            "datetime": "2022-11-23 10:11:00",
+            "exchange_code": "NSE",
+            "high": 2560.95,
+            "low": 2560.0,
+            "open": 2560.5,
+            "stock_code": "RELIND",
+            "volume": 6294
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 10:12:00",
+            "exchange_code": "NSE",
+            "high": 2560.3,
+            "low": 2560.0,
+            "open": 2560.2,
+            "stock_code": "RELIND",
+            "volume": 6487
+        },
+        {
+            "close": 2560.1,
+            "datetime": "2022-11-23 10:13:00",
+            "exchange_code": "NSE",
+            "high": 2560.1,
+            "low": 2560.0,
+            "open": 2560.0,
+            "stock_code": "RELIND",
+            "volume": 3111
+        },
+        {
+            "close": 2562.8,
+            "datetime": "2022-11-23 10:14:00",
+            "exchange_code": "NSE",
+            "high": 2562.8,
+            "low": 2560.05,
+            "open": 2560.1,
+            "stock_code": "RELIND",
+            "volume": 5118
+        },
+        {
+            "close": 2563.65,
+            "datetime": "2022-11-23 10:15:00",
+            "exchange_code": "NSE",
+            "high": 2563.65,
+            "low": 2561.6,
+            "open": 2561.6,
+            "stock_code": "RELIND",
+            "volume": 5838
+        },
+        {
+            "close": 2559.55,
+            "datetime": "2022-11-23 10:16:00",
+            "exchange_code": "NSE",
+            "high": 2563.75,
+            "low": 2559.55,
+            "open": 2563.65,
+            "stock_code": "RELIND",
+            "volume": 12333
+        },
+        {
+            "close": 2557.35,
+            "datetime": "2022-11-23 10:17:00",
+            "exchange_code": "NSE",
+            "high": 2559.6,
+            "low": 2555.25,
+            "open": 2559.6,
+            "stock_code": "RELIND",
+            "volume": 48435
+        },
+        {
+            "close": 2558.25,
+            "datetime": "2022-11-23 10:18:00",
+            "exchange_code": "NSE",
+            "high": 2559.3,
+            "low": 2556.25,
+            "open": 2557.35,
+            "stock_code": "RELIND",
+            "volume": 12558
+        },
+        {
+            "close": 2559.45,
+            "datetime": "2022-11-23 10:19:00",
+            "exchange_code": "NSE",
+            "high": 2560.0,
+            "low": 2558.05,
+            "open": 2558.5,
+            "stock_code": "RELIND",
+            "volume": 5702
+        },
+        {
+            "close": 2557.5,
+            "datetime": "2022-11-23 10:20:00",
+            "exchange_code": "NSE",
+            "high": 2560.0,
+            "low": 2557.25,
+            "open": 2559.45,
+            "stock_code": "RELIND",
+            "volume": 13997
+        },
+        {
+            "close": 2558.65,
+            "datetime": "2022-11-23 10:21:00",
+            "exchange_code": "NSE",
+            "high": 2559.0,
+            "low": 2557.25,
+            "open": 2557.5,
+            "stock_code": "RELIND",
+            "volume": 7280
+        },
+        {
+            "close": 2557.25,
+            "datetime": "2022-11-23 10:22:00",
+            "exchange_code": "NSE",
+            "high": 2559.2,
+            "low": 2557.25,
+            "open": 2558.25,
+            "stock_code": "RELIND",
+            "volume": 5280
+        },
+        {
+            "close": 2558.5,
+            "datetime": "2022-11-23 10:23:00",
+            "exchange_code": "NSE",
+            "high": 2558.5,
+            "low": 2557.0,
+            "open": 2557.2,
+            "stock_code": "RELIND",
+            "volume": 6240
+        },
+        {
+            "close": 2557.0,
+            "datetime": "2022-11-23 10:24:00",
+            "exchange_code": "NSE",
+            "high": 2558.9,
+            "low": 2557.0,
+            "open": 2558.7,
+            "stock_code": "RELIND",
+            "volume": 4542
+        },
+        {
+            "close": 2557.45,
+            "datetime": "2022-11-23 10:25:00",
+            "exchange_code": "NSE",
+            "high": 2558.55,
+            "low": 2557.0,
+            "open": 2557.2,
+            "stock_code": "RELIND",
+            "volume": 7562
+        },
+        {
+            "close": 2557.4,
+            "datetime": "2022-11-23 10:26:00",
+            "exchange_code": "NSE",
+            "high": 2559.0,
+            "low": 2557.05,
+            "open": 2557.45,
+            "stock_code": "RELIND",
+            "volume": 4537
+        },
+        {
+            "close": 2558.5,
+            "datetime": "2022-11-23 10:27:00",
+            "exchange_code": "NSE",
+            "high": 2559.0,
+            "low": 2557.2,
+            "open": 2557.2,
+            "stock_code": "RELIND",
+            "volume": 5224
+        },
+        {
+            "close": 2559.35,
+            "datetime": "2022-11-23 10:28:00",
+            "exchange_code": "NSE",
+            "high": 2559.9,
+            "low": 2558.5,
+            "open": 2559.9,
+            "stock_code": "RELIND",
+            "volume": 4906
+        },
+        {
+            "close": 2559.4,
+            "datetime": "2022-11-23 10:29:00",
+            "exchange_code": "NSE",
+            "high": 2560.0,
+            "low": 2559.0,
+            "open": 2559.0,
+            "stock_code": "RELIND",
+            "volume": 3307
+        },
+        {
+            "close": 2559.8,
+            "datetime": "2022-11-23 10:30:00",
+            "exchange_code": "NSE",
+            "high": 2559.95,
+            "low": 2559.4,
+            "open": 2559.45,
+            "stock_code": "RELIND",
+            "volume": 3311
+        },
+        {
+            "close": 2561.85,
+            "datetime": "2022-11-23 10:31:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2559.85,
+            "open": 2559.95,
+            "stock_code": "RELIND",
+            "volume": 6964
+        },
+        {
+            "close": 2562.8,
+            "datetime": "2022-11-23 10:32:00",
+            "exchange_code": "NSE",
+            "high": 2563.4,
+            "low": 2561.4,
+            "open": 2561.95,
+            "stock_code": "RELIND",
+            "volume": 7433
+        },
+        {
+            "close": 2561.5,
+            "datetime": "2022-11-23 10:33:00",
+            "exchange_code": "NSE",
+            "high": 2563.0,
+            "low": 2561.4,
+            "open": 2562.8,
+            "stock_code": "RELIND",
+            "volume": 4586
+        },
+        {
+            "close": 2560.65,
+            "datetime": "2022-11-23 10:34:00",
+            "exchange_code": "NSE",
+            "high": 2561.6,
+            "low": 2560.0,
+            "open": 2561.4,
+            "stock_code": "RELIND",
+            "volume": 2670
+        },
+        {
+            "close": 2560.4,
+            "datetime": "2022-11-23 10:35:00",
+            "exchange_code": "NSE",
+            "high": 2560.7,
+            "low": 2560.4,
+            "open": 2560.7,
+            "stock_code": "RELIND",
+            "volume": 2491
+        },
+        {
+            "close": 2560.4,
+            "datetime": "2022-11-23 10:36:00",
+            "exchange_code": "NSE",
+            "high": 2560.5,
+            "low": 2560.4,
+            "open": 2560.45,
+            "stock_code": "RELIND",
+            "volume": 2040
+        },
+        {
+            "close": 2560.7,
+            "datetime": "2022-11-23 10:37:00",
+            "exchange_code": "NSE",
+            "high": 2561.55,
+            "low": 2560.2,
+            "open": 2560.2,
+            "stock_code": "RELIND",
+            "volume": 3296
+        },
+        {
+            "close": 2561.55,
+            "datetime": "2022-11-23 10:38:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2560.4,
+            "open": 2560.4,
+            "stock_code": "RELIND",
+            "volume": 3034
+        },
+        {
+            "close": 2561.25,
+            "datetime": "2022-11-23 10:39:00",
+            "exchange_code": "NSE",
+            "high": 2561.55,
+            "low": 2561.05,
+            "open": 2561.45,
+            "stock_code": "RELIND",
+            "volume": 3551
+        },
+        {
+            "close": 2561.05,
+            "datetime": "2022-11-23 10:40:00",
+            "exchange_code": "NSE",
+            "high": 2561.9,
+            "low": 2561.0,
+            "open": 2561.25,
+            "stock_code": "RELIND",
+            "volume": 2198
+        },
+        {
+            "close": 2561.0,
+            "datetime": "2022-11-23 10:41:00",
+            "exchange_code": "NSE",
+            "high": 2561.15,
+            "low": 2561.0,
+            "open": 2561.05,
+            "stock_code": "RELIND",
+            "volume": 1636
+        },
+        {
+            "close": 2558.15,
+            "datetime": "2022-11-23 10:42:00",
+            "exchange_code": "NSE",
+            "high": 2561.05,
+            "low": 2558.15,
+            "open": 2561.05,
+            "stock_code": "RELIND",
+            "volume": 9731
+        },
+        {
+            "close": 2558.45,
+            "datetime": "2022-11-23 10:43:00",
+            "exchange_code": "NSE",
+            "high": 2560.8,
+            "low": 2558.05,
+            "open": 2558.1,
+            "stock_code": "RELIND",
+            "volume": 9245
+        },
+        {
+            "close": 2557.55,
+            "datetime": "2022-11-23 10:44:00",
+            "exchange_code": "NSE",
+            "high": 2558.5,
+            "low": 2557.0,
+            "open": 2558.45,
+            "stock_code": "RELIND",
+            "volume": 12032
+        },
+        {
+            "close": 2557.3,
+            "datetime": "2022-11-23 10:45:00",
+            "exchange_code": "NSE",
+            "high": 2558.0,
+            "low": 2557.0,
+            "open": 2557.45,
+            "stock_code": "RELIND",
+            "volume": 4692
+        },
+        {
+            "close": 2560.05,
+            "datetime": "2022-11-23 10:46:00",
+            "exchange_code": "NSE",
+            "high": 2561.55,
+            "low": 2557.2,
+            "open": 2557.3,
+            "stock_code": "RELIND",
+            "volume": 7081
+        },
+        {
+            "close": 2560.05,
+            "datetime": "2022-11-23 10:47:00",
+            "exchange_code": "NSE",
+            "high": 2561.2,
+            "low": 2559.65,
+            "open": 2560.4,
+            "stock_code": "RELIND",
+            "volume": 2935
+        },
+        {
+            "close": 2562.95,
+            "datetime": "2022-11-23 10:48:00",
+            "exchange_code": "NSE",
+            "high": 2562.95,
+            "low": 2560.05,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 4548
+        },
+        {
+            "close": 2562.2,
+            "datetime": "2022-11-23 10:49:00",
+            "exchange_code": "NSE",
+            "high": 2564.7,
+            "low": 2562.2,
+            "open": 2562.4,
+            "stock_code": "RELIND",
+            "volume": 8578
+        },
+        {
+            "close": 2560.8,
+            "datetime": "2022-11-23 10:50:00",
+            "exchange_code": "NSE",
+            "high": 2562.35,
+            "low": 2560.1,
+            "open": 2562.35,
+            "stock_code": "RELIND",
+            "volume": 3366
+        },
+        {
+            "close": 2561.05,
+            "datetime": "2022-11-23 10:51:00",
+            "exchange_code": "NSE",
+            "high": 2561.7,
+            "low": 2560.55,
+            "open": 2560.55,
+            "stock_code": "RELIND",
+            "volume": 2142
+        },
+        {
+            "close": 2560.85,
+            "datetime": "2022-11-23 10:52:00",
+            "exchange_code": "NSE",
+            "high": 2561.65,
+            "low": 2560.8,
+            "open": 2561.65,
+            "stock_code": "RELIND",
+            "volume": 2546
+        },
+        {
+            "close": 2559.35,
+            "datetime": "2022-11-23 10:53:00",
+            "exchange_code": "NSE",
+            "high": 2560.6,
+            "low": 2557.65,
+            "open": 2560.5,
+            "stock_code": "RELIND",
+            "volume": 10272
+        },
+        {
+            "close": 2558.4,
+            "datetime": "2022-11-23 10:54:00",
+            "exchange_code": "NSE",
+            "high": 2559.8,
+            "low": 2558.0,
+            "open": 2559.8,
+            "stock_code": "RELIND",
+            "volume": 2278
+        },
+        {
+            "close": 2559.5,
+            "datetime": "2022-11-23 10:55:00",
+            "exchange_code": "NSE",
+            "high": 2560.3,
+            "low": 2558.3,
+            "open": 2558.45,
+            "stock_code": "RELIND",
+            "volume": 3765
+        },
+        {
+            "close": 2560.95,
+            "datetime": "2022-11-23 10:56:00",
+            "exchange_code": "NSE",
+            "high": 2561.75,
+            "low": 2559.75,
+            "open": 2559.9,
+            "stock_code": "RELIND",
+            "volume": 3045
+        },
+        {
+            "close": 2560.2,
+            "datetime": "2022-11-23 10:57:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2560.2,
+            "open": 2561.55,
+            "stock_code": "RELIND",
+            "volume": 3174
+        },
+        {
+            "close": 2560.55,
+            "datetime": "2022-11-23 10:58:00",
+            "exchange_code": "NSE",
+            "high": 2561.25,
+            "low": 2560.3,
+            "open": 2560.3,
+            "stock_code": "RELIND",
+            "volume": 1717
+        },
+        {
+            "close": 2561.15,
+            "datetime": "2022-11-23 10:59:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2560.55,
+            "open": 2560.55,
+            "stock_code": "RELIND",
+            "volume": 1868
+        },
+        {
+            "close": 2561.75,
+            "datetime": "2022-11-23 11:00:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.15,
+            "open": 2561.15,
+            "stock_code": "RELIND",
+            "volume": 2479
+        },
+        {
+            "close": 2561.85,
+            "datetime": "2022-11-23 11:01:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.65,
+            "open": 2561.75,
+            "stock_code": "RELIND",
+            "volume": 1906
+        },
+        {
+            "close": 2561.05,
+            "datetime": "2022-11-23 11:02:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.0,
+            "open": 2561.9,
+            "stock_code": "RELIND",
+            "volume": 5692
+        },
+        {
+            "close": 2561.2,
+            "datetime": "2022-11-23 11:03:00",
+            "exchange_code": "NSE",
+            "high": 2562.4,
+            "low": 2561.05,
+            "open": 2561.1,
+            "stock_code": "RELIND",
+            "volume": 1669
+        },
+        {
+            "close": 2560.45,
+            "datetime": "2022-11-23 11:04:00",
+            "exchange_code": "NSE",
+            "high": 2561.5,
+            "low": 2560.4,
+            "open": 2561.2,
+            "stock_code": "RELIND",
+            "volume": 13060
+        },
+        {
+            "close": 2561.55,
+            "datetime": "2022-11-23 11:05:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2560.4,
+            "open": 2560.45,
+            "stock_code": "RELIND",
+            "volume": 4769
+        },
+        {
+            "close": 2562.7,
+            "datetime": "2022-11-23 11:06:00",
+            "exchange_code": "NSE",
+            "high": 2562.7,
+            "low": 2561.45,
+            "open": 2561.45,
+            "stock_code": "RELIND",
+            "volume": 1776
+        },
+        {
+            "close": 2563.5,
+            "datetime": "2022-11-23 11:07:00",
+            "exchange_code": "NSE",
+            "high": 2564.0,
+            "low": 2562.55,
+            "open": 2562.7,
+            "stock_code": "RELIND",
+            "volume": 6178
+        },
+        {
+            "close": 2562.05,
+            "datetime": "2022-11-23 11:08:00",
+            "exchange_code": "NSE",
+            "high": 2563.5,
+            "low": 2562.05,
+            "open": 2563.5,
+            "stock_code": "RELIND",
+            "volume": 4951
+        },
+        {
+            "close": 2561.5,
+            "datetime": "2022-11-23 11:09:00",
+            "exchange_code": "NSE",
+            "high": 2562.3,
+            "low": 2561.5,
+            "open": 2562.3,
+            "stock_code": "RELIND",
+            "volume": 1709
+        },
+        {
+            "close": 2561.35,
+            "datetime": "2022-11-23 11:10:00",
+            "exchange_code": "NSE",
+            "high": 2561.55,
+            "low": 2561.3,
+            "open": 2561.55,
+            "stock_code": "RELIND",
+            "volume": 2125
+        },
+        {
+            "close": 2562.05,
+            "datetime": "2022-11-23 11:11:00",
+            "exchange_code": "NSE",
+            "high": 2562.2,
+            "low": 2558.85,
+            "open": 2560.8,
+            "stock_code": "RELIND",
+            "volume": 21397
+        },
+        {
+            "close": 2560.35,
+            "datetime": "2022-11-23 11:12:00",
+            "exchange_code": "NSE",
+            "high": 2562.05,
+            "low": 2559.0,
+            "open": 2562.05,
+            "stock_code": "RELIND",
+            "volume": 10462
+        },
+        {
+            "close": 2559.95,
+            "datetime": "2022-11-23 11:13:00",
+            "exchange_code": "NSE",
+            "high": 2560.7,
+            "low": 2559.95,
+            "open": 2560.2,
+            "stock_code": "RELIND",
+            "volume": 3444
+        },
+        {
+            "close": 2560.8,
+            "datetime": "2022-11-23 11:14:00",
+            "exchange_code": "NSE",
+            "high": 2561.0,
+            "low": 2559.9,
+            "open": 2560.0,
+            "stock_code": "RELIND",
+            "volume": 2778
+        },
+        {
+            "close": 2560.1,
+            "datetime": "2022-11-23 11:15:00",
+            "exchange_code": "NSE",
+            "high": 2560.85,
+            "low": 2560.05,
+            "open": 2560.85,
+            "stock_code": "RELIND",
+            "volume": 1495
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 11:16:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2559.95,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 2898
+        },
+        {
+            "close": 2560.7,
+            "datetime": "2022-11-23 11:17:00",
+            "exchange_code": "NSE",
+            "high": 2560.9,
+            "low": 2559.95,
+            "open": 2559.95,
+            "stock_code": "RELIND",
+            "volume": 4362
+        },
+        {
+            "close": 2561.2,
+            "datetime": "2022-11-23 11:18:00",
+            "exchange_code": "NSE",
+            "high": 2561.9,
+            "low": 2560.6,
+            "open": 2560.7,
+            "stock_code": "RELIND",
+            "volume": 3216
+        },
+        {
+            "close": 2561.0,
+            "datetime": "2022-11-23 11:19:00",
+            "exchange_code": "NSE",
+            "high": 2561.35,
+            "low": 2560.9,
+            "open": 2561.35,
+            "stock_code": "RELIND",
+            "volume": 3682
+        },
+        {
+            "close": 2561.45,
+            "datetime": "2022-11-23 11:20:00",
+            "exchange_code": "NSE",
+            "high": 2561.45,
+            "low": 2561.0,
+            "open": 2561.05,
+            "stock_code": "RELIND",
+            "volume": 3494
+        },
+        {
+            "close": 2561.55,
+            "datetime": "2022-11-23 11:21:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.0,
+            "open": 2561.5,
+            "stock_code": "RELIND",
+            "volume": 1988
+        },
+        {
+            "close": 2561.95,
+            "datetime": "2022-11-23 11:22:00",
+            "exchange_code": "NSE",
+            "high": 2562.7,
+            "low": 2561.45,
+            "open": 2561.6,
+            "stock_code": "RELIND",
+            "volume": 2714
+        },
+        {
+            "close": 2563.45,
+            "datetime": "2022-11-23 11:23:00",
+            "exchange_code": "NSE",
+            "high": 2563.5,
+            "low": 2562.35,
+            "open": 2562.35,
+            "stock_code": "RELIND",
+            "volume": 3123
+        },
+        {
+            "close": 2561.05,
+            "datetime": "2022-11-23 11:24:00",
+            "exchange_code": "NSE",
+            "high": 2563.45,
+            "low": 2561.0,
+            "open": 2563.45,
+            "stock_code": "RELIND",
+            "volume": 5421
+        },
+        {
+            "close": 2561.05,
+            "datetime": "2022-11-23 11:25:00",
+            "exchange_code": "NSE",
+            "high": 2561.05,
+            "low": 2561.0,
+            "open": 2561.05,
+            "stock_code": "RELIND",
+            "volume": 3209
+        },
+        {
+            "close": 2561.05,
+            "datetime": "2022-11-23 11:26:00",
+            "exchange_code": "NSE",
+            "high": 2561.05,
+            "low": 2561.0,
+            "open": 2561.05,
+            "stock_code": "RELIND",
+            "volume": 1030
+        },
+        {
+            "close": 2561.05,
+            "datetime": "2022-11-23 11:27:00",
+            "exchange_code": "NSE",
+            "high": 2561.05,
+            "low": 2560.05,
+            "open": 2561.0,
+            "stock_code": "RELIND",
+            "volume": 10863
+        },
+        {
+            "close": 2561.75,
+            "datetime": "2022-11-23 11:28:00",
+            "exchange_code": "NSE",
+            "high": 2561.8,
+            "low": 2561.05,
+            "open": 2561.05,
+            "stock_code": "RELIND",
+            "volume": 2804
+        },
+        {
+            "close": 2561.75,
+            "datetime": "2022-11-23 11:29:00",
+            "exchange_code": "NSE",
+            "high": 2561.75,
+            "low": 2561.7,
+            "open": 2561.75,
+            "stock_code": "RELIND",
+            "volume": 1409
+        },
+        {
+            "close": 2561.45,
+            "datetime": "2022-11-23 11:30:00",
+            "exchange_code": "NSE",
+            "high": 2561.75,
+            "low": 2561.4,
+            "open": 2561.75,
+            "stock_code": "RELIND",
+            "volume": 2789
+        },
+        {
+            "close": 2561.15,
+            "datetime": "2022-11-23 11:31:00",
+            "exchange_code": "NSE",
+            "high": 2561.45,
+            "low": 2561.1,
+            "open": 2561.45,
+            "stock_code": "RELIND",
+            "volume": 1776
+        },
+        {
+            "close": 2561.7,
+            "datetime": "2022-11-23 11:32:00",
+            "exchange_code": "NSE",
+            "high": 2561.75,
+            "low": 2561.15,
+            "open": 2561.15,
+            "stock_code": "RELIND",
+            "volume": 4099
+        },
+        {
+            "close": 2561.05,
+            "datetime": "2022-11-23 11:33:00",
+            "exchange_code": "NSE",
+            "high": 2561.7,
+            "low": 2561.0,
+            "open": 2561.35,
+            "stock_code": "RELIND",
+            "volume": 1848
+        },
+        {
+            "close": 2562.0,
+            "datetime": "2022-11-23 11:34:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.0,
+            "open": 2561.0,
+            "stock_code": "RELIND",
+            "volume": 2604
+        },
+        {
+            "close": 2562.0,
+            "datetime": "2022-11-23 11:35:00",
+            "exchange_code": "NSE",
+            "high": 2563.7,
+            "low": 2561.4,
+            "open": 2562.5,
+            "stock_code": "RELIND",
+            "volume": 5425
+        },
+        {
+            "close": 2562.65,
+            "datetime": "2022-11-23 11:36:00",
+            "exchange_code": "NSE",
+            "high": 2563.7,
+            "low": 2562.05,
+            "open": 2562.05,
+            "stock_code": "RELIND",
+            "volume": 3538
+        },
+        {
+            "close": 2562.0,
+            "datetime": "2022-11-23 11:37:00",
+            "exchange_code": "NSE",
+            "high": 2562.6,
+            "low": 2561.95,
+            "open": 2562.55,
+            "stock_code": "RELIND",
+            "volume": 4735
+        },
+        {
+            "close": 2562.35,
+            "datetime": "2022-11-23 11:38:00",
+            "exchange_code": "NSE",
+            "high": 2562.5,
+            "low": 2561.95,
+            "open": 2562.0,
+            "stock_code": "RELIND",
+            "volume": 4397
+        },
+        {
+            "close": 2562.0,
+            "datetime": "2022-11-23 11:39:00",
+            "exchange_code": "NSE",
+            "high": 2562.4,
+            "low": 2562.0,
+            "open": 2562.35,
+            "stock_code": "RELIND",
+            "volume": 1745
+        },
+        {
+            "close": 2562.0,
+            "datetime": "2022-11-23 11:40:00",
+            "exchange_code": "NSE",
+            "high": 2562.05,
+            "low": 2562.0,
+            "open": 2562.0,
+            "stock_code": "RELIND",
+            "volume": 2188
+        },
+        {
+            "close": 2563.0,
+            "datetime": "2022-11-23 11:41:00",
+            "exchange_code": "NSE",
+            "high": 2563.0,
+            "low": 2562.0,
+            "open": 2562.05,
+            "stock_code": "RELIND",
+            "volume": 4415
+        },
+        {
+            "close": 2562.55,
+            "datetime": "2022-11-23 11:42:00",
+            "exchange_code": "NSE",
+            "high": 2563.0,
+            "low": 2562.0,
+            "open": 2562.95,
+            "stock_code": "RELIND",
+            "volume": 6991
+        },
+        {
+            "close": 2562.45,
+            "datetime": "2022-11-23 11:43:00",
+            "exchange_code": "NSE",
+            "high": 2563.0,
+            "low": 2562.25,
+            "open": 2562.4,
+            "stock_code": "RELIND",
+            "volume": 5687
+        },
+        {
+            "close": 2563.5,
+            "datetime": "2022-11-23 11:44:00",
+            "exchange_code": "NSE",
+            "high": 2563.9,
+            "low": 2562.4,
+            "open": 2562.4,
+            "stock_code": "RELIND",
+            "volume": 4497
+        },
+        {
+            "close": 2562.75,
+            "datetime": "2022-11-23 11:45:00",
+            "exchange_code": "NSE",
+            "high": 2563.45,
+            "low": 2562.1,
+            "open": 2563.45,
+            "stock_code": "RELIND",
+            "volume": 3134
+        },
+        {
+            "close": 2563.0,
+            "datetime": "2022-11-23 11:46:00",
+            "exchange_code": "NSE",
+            "high": 2563.5,
+            "low": 2562.8,
+            "open": 2562.8,
+            "stock_code": "RELIND",
+            "volume": 5525
+        },
+        {
+            "close": 2562.05,
+            "datetime": "2022-11-23 11:47:00",
+            "exchange_code": "NSE",
+            "high": 2563.05,
+            "low": 2562.05,
+            "open": 2563.0,
+            "stock_code": "RELIND",
+            "volume": 2967
+        },
+        {
+            "close": 2562.05,
+            "datetime": "2022-11-23 11:48:00",
+            "exchange_code": "NSE",
+            "high": 2562.15,
+            "low": 2562.0,
+            "open": 2562.05,
+            "stock_code": "RELIND",
+            "volume": 3999
+        },
+        {
+            "close": 2562.55,
+            "datetime": "2022-11-23 11:49:00",
+            "exchange_code": "NSE",
+            "high": 2562.75,
+            "low": 2562.0,
+            "open": 2562.0,
+            "stock_code": "RELIND",
+            "volume": 5353
+        },
+        {
+            "close": 2563.5,
+            "datetime": "2022-11-23 11:50:00",
+            "exchange_code": "NSE",
+            "high": 2563.5,
+            "low": 2562.45,
+            "open": 2562.55,
+            "stock_code": "RELIND",
+            "volume": 3076
+        },
+        {
+            "close": 2562.75,
+            "datetime": "2022-11-23 11:51:00",
+            "exchange_code": "NSE",
+            "high": 2563.5,
+            "low": 2562.65,
+            "open": 2563.25,
+            "stock_code": "RELIND",
+            "volume": 3288
+        },
+        {
+            "close": 2562.1,
+            "datetime": "2022-11-23 11:52:00",
+            "exchange_code": "NSE",
+            "high": 2562.7,
+            "low": 2562.1,
+            "open": 2562.7,
+            "stock_code": "RELIND",
+            "volume": 4030
+        },
+        {
+            "close": 2562.65,
+            "datetime": "2022-11-23 11:53:00",
+            "exchange_code": "NSE",
+            "high": 2562.65,
+            "low": 2562.1,
+            "open": 2562.1,
+            "stock_code": "RELIND",
+            "volume": 3853
+        },
+        {
+            "close": 2562.1,
+            "datetime": "2022-11-23 11:54:00",
+            "exchange_code": "NSE",
+            "high": 2562.65,
+            "low": 2562.1,
+            "open": 2562.65,
+            "stock_code": "RELIND",
+            "volume": 2883
+        },
+        {
+            "close": 2562.05,
+            "datetime": "2022-11-23 11:55:00",
+            "exchange_code": "NSE",
+            "high": 2562.15,
+            "low": 2562.0,
+            "open": 2562.05,
+            "stock_code": "RELIND",
+            "volume": 3103
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 11:56:00",
+            "exchange_code": "NSE",
+            "high": 2562.05,
+            "low": 2560.0,
+            "open": 2562.0,
+            "stock_code": "RELIND",
+            "volume": 40957
+        },
+        {
+            "close": 2561.55,
+            "datetime": "2022-11-23 11:57:00",
+            "exchange_code": "NSE",
+            "high": 2561.8,
+            "low": 2559.9,
+            "open": 2560.0,
+            "stock_code": "RELIND",
+            "volume": 6659
+        },
+        {
+            "close": 2563.5,
+            "datetime": "2022-11-23 11:58:00",
+            "exchange_code": "NSE",
+            "high": 2563.75,
+            "low": 2561.55,
+            "open": 2561.55,
+            "stock_code": "RELIND",
+            "volume": 4210
+        },
+        {
+            "close": 2562.1,
+            "datetime": "2022-11-23 11:59:00",
+            "exchange_code": "NSE",
+            "high": 2563.7,
+            "low": 2561.6,
+            "open": 2563.6,
+            "stock_code": "RELIND",
+            "volume": 5896
+        },
+        {
+            "close": 2562.0,
+            "datetime": "2022-11-23 12:00:00",
+            "exchange_code": "NSE",
+            "high": 2562.3,
+            "low": 2562.0,
+            "open": 2562.1,
+            "stock_code": "RELIND",
+            "volume": 2408
+        },
+        {
+            "close": 2561.75,
+            "datetime": "2022-11-23 12:01:00",
+            "exchange_code": "NSE",
+            "high": 2562.05,
+            "low": 2561.55,
+            "open": 2562.0,
+            "stock_code": "RELIND",
+            "volume": 2786
+        },
+        {
+            "close": 2561.85,
+            "datetime": "2022-11-23 12:02:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.1,
+            "open": 2561.75,
+            "stock_code": "RELIND",
+            "volume": 6100
+        },
+        {
+            "close": 2561.35,
+            "datetime": "2022-11-23 12:03:00",
+            "exchange_code": "NSE",
+            "high": 2561.85,
+            "low": 2561.1,
+            "open": 2561.85,
+            "stock_code": "RELIND",
+            "volume": 1172
+        },
+        {
+            "close": 2561.05,
+            "datetime": "2022-11-23 12:04:00",
+            "exchange_code": "NSE",
+            "high": 2561.4,
+            "low": 2561.0,
+            "open": 2561.35,
+            "stock_code": "RELIND",
+            "volume": 3780
+        },
+        {
+            "close": 2562.05,
+            "datetime": "2022-11-23 12:05:00",
+            "exchange_code": "NSE",
+            "high": 2562.1,
+            "low": 2561.0,
+            "open": 2561.05,
+            "stock_code": "RELIND",
+            "volume": 8308
+        },
+        {
+            "close": 2562.15,
+            "datetime": "2022-11-23 12:06:00",
+            "exchange_code": "NSE",
+            "high": 2562.4,
+            "low": 2562.0,
+            "open": 2562.1,
+            "stock_code": "RELIND",
+            "volume": 2130
+        },
+        {
+            "close": 2562.4,
+            "datetime": "2022-11-23 12:07:00",
+            "exchange_code": "NSE",
+            "high": 2562.55,
+            "low": 2562.0,
+            "open": 2562.2,
+            "stock_code": "RELIND",
+            "volume": 2557
+        },
+        {
+            "close": 2562.05,
+            "datetime": "2022-11-23 12:08:00",
+            "exchange_code": "NSE",
+            "high": 2563.0,
+            "low": 2562.0,
+            "open": 2562.45,
+            "stock_code": "RELIND",
+            "volume": 3173
+        },
+        {
+            "close": 2562.15,
+            "datetime": "2022-11-23 12:09:00",
+            "exchange_code": "NSE",
+            "high": 2562.25,
+            "low": 2562.05,
+            "open": 2562.05,
+            "stock_code": "RELIND",
+            "volume": 1487
+        },
+        {
+            "close": 2561.95,
+            "datetime": "2022-11-23 12:10:00",
+            "exchange_code": "NSE",
+            "high": 2562.2,
+            "low": 2561.9,
+            "open": 2562.15,
+            "stock_code": "RELIND",
+            "volume": 10906
+        },
+        {
+            "close": 2561.95,
+            "datetime": "2022-11-23 12:11:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.95,
+            "open": 2562.0,
+            "stock_code": "RELIND",
+            "volume": 4119
+        },
+        {
+            "close": 2561.95,
+            "datetime": "2022-11-23 12:12:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.95,
+            "open": 2561.95,
+            "stock_code": "RELIND",
+            "volume": 5258
+        },
+        {
+            "close": 2561.9,
+            "datetime": "2022-11-23 12:13:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.9,
+            "open": 2562.0,
+            "stock_code": "RELIND",
+            "volume": 4148
+        },
+        {
+            "close": 2561.8,
+            "datetime": "2022-11-23 12:14:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.7,
+            "open": 2561.95,
+            "stock_code": "RELIND",
+            "volume": 3707
+        },
+        {
+            "close": 2561.8,
+            "datetime": "2022-11-23 12:15:00",
+            "exchange_code": "NSE",
+            "high": 2561.85,
+            "low": 2561.75,
+            "open": 2561.85,
+            "stock_code": "RELIND",
+            "volume": 1527
+        },
+        {
+            "close": 2561.5,
+            "datetime": "2022-11-23 12:16:00",
+            "exchange_code": "NSE",
+            "high": 2561.8,
+            "low": 2561.5,
+            "open": 2561.75,
+            "stock_code": "RELIND",
+            "volume": 2620
+        },
+        {
+            "close": 2561.9,
+            "datetime": "2022-11-23 12:17:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.5,
+            "open": 2561.5,
+            "stock_code": "RELIND",
+            "volume": 5378
+        },
+        {
+            "close": 2561.6,
+            "datetime": "2022-11-23 12:18:00",
+            "exchange_code": "NSE",
+            "high": 2561.9,
+            "low": 2561.5,
+            "open": 2561.9,
+            "stock_code": "RELIND",
+            "volume": 2533
+        },
+        {
+            "close": 2561.3,
+            "datetime": "2022-11-23 12:19:00",
+            "exchange_code": "NSE",
+            "high": 2562.15,
+            "low": 2561.05,
+            "open": 2561.55,
+            "stock_code": "RELIND",
+            "volume": 4594
+        },
+        {
+            "close": 2561.05,
+            "datetime": "2022-11-23 12:20:00",
+            "exchange_code": "NSE",
+            "high": 2561.55,
+            "low": 2561.05,
+            "open": 2561.3,
+            "stock_code": "RELIND",
+            "volume": 2561
+        },
+        {
+            "close": 2561.0,
+            "datetime": "2022-11-23 12:21:00",
+            "exchange_code": "NSE",
+            "high": 2561.1,
+            "low": 2561.0,
+            "open": 2561.05,
+            "stock_code": "RELIND",
+            "volume": 3492
+        },
+        {
+            "close": 2560.7,
+            "datetime": "2022-11-23 12:22:00",
+            "exchange_code": "NSE",
+            "high": 2561.05,
+            "low": 2560.5,
+            "open": 2561.0,
+            "stock_code": "RELIND",
+            "volume": 8825
+        },
+        {
+            "close": 2560.5,
+            "datetime": "2022-11-23 12:23:00",
+            "exchange_code": "NSE",
+            "high": 2560.75,
+            "low": 2560.1,
+            "open": 2560.6,
+            "stock_code": "RELIND",
+            "volume": 5773
+        },
+        {
+            "close": 2560.2,
+            "datetime": "2022-11-23 12:24:00",
+            "exchange_code": "NSE",
+            "high": 2560.55,
+            "low": 2560.1,
+            "open": 2560.5,
+            "stock_code": "RELIND",
+            "volume": 5354
+        },
+        {
+            "close": 2556.45,
+            "datetime": "2022-11-23 12:25:00",
+            "exchange_code": "NSE",
+            "high": 2560.35,
+            "low": 2555.35,
+            "open": 2560.35,
+            "stock_code": "RELIND",
+            "volume": 29944
+        },
+        {
+            "close": 2556.3,
+            "datetime": "2022-11-23 12:26:00",
+            "exchange_code": "NSE",
+            "high": 2557.5,
+            "low": 2555.55,
+            "open": 2556.4,
+            "stock_code": "RELIND",
+            "volume": 9635
+        },
+        {
+            "close": 2556.05,
+            "datetime": "2022-11-23 12:27:00",
+            "exchange_code": "NSE",
+            "high": 2556.95,
+            "low": 2555.6,
+            "open": 2556.3,
+            "stock_code": "RELIND",
+            "volume": 3319
+        },
+        {
+            "close": 2557.5,
+            "datetime": "2022-11-23 12:28:00",
+            "exchange_code": "NSE",
+            "high": 2557.5,
+            "low": 2556.05,
+            "open": 2556.05,
+            "stock_code": "RELIND",
+            "volume": 7125
+        },
+        {
+            "close": 2557.75,
+            "datetime": "2022-11-23 12:29:00",
+            "exchange_code": "NSE",
+            "high": 2558.0,
+            "low": 2557.15,
+            "open": 2557.15,
+            "stock_code": "RELIND",
+            "volume": 3466
+        },
+        {
+            "close": 2556.0,
+            "datetime": "2022-11-23 12:30:00",
+            "exchange_code": "NSE",
+            "high": 2557.75,
+            "low": 2556.0,
+            "open": 2557.75,
+            "stock_code": "RELIND",
+            "volume": 5247
+        },
+        {
+            "close": 2556.2,
+            "datetime": "2022-11-23 12:31:00",
+            "exchange_code": "NSE",
+            "high": 2556.25,
+            "low": 2555.6,
+            "open": 2556.05,
+            "stock_code": "RELIND",
+            "volume": 6380
+        },
+        {
+            "close": 2556.8,
+            "datetime": "2022-11-23 12:32:00",
+            "exchange_code": "NSE",
+            "high": 2557.5,
+            "low": 2556.0,
+            "open": 2556.15,
+            "stock_code": "RELIND",
+            "volume": 6129
+        },
+        {
+            "close": 2556.8,
+            "datetime": "2022-11-23 12:33:00",
+            "exchange_code": "NSE",
+            "high": 2557.5,
+            "low": 2556.2,
+            "open": 2556.8,
+            "stock_code": "RELIND",
+            "volume": 3749
+        },
+        {
+            "close": 2556.55,
+            "datetime": "2022-11-23 12:34:00",
+            "exchange_code": "NSE",
+            "high": 2556.8,
+            "low": 2556.5,
+            "open": 2556.75,
+            "stock_code": "RELIND",
+            "volume": 1943
+        },
+        {
+            "close": 2556.5,
+            "datetime": "2022-11-23 12:35:00",
+            "exchange_code": "NSE",
+            "high": 2556.55,
+            "low": 2555.95,
+            "open": 2556.5,
+            "stock_code": "RELIND",
+            "volume": 8441
+        },
+        {
+            "close": 2557.65,
+            "datetime": "2022-11-23 12:36:00",
+            "exchange_code": "NSE",
+            "high": 2557.85,
+            "low": 2556.5,
+            "open": 2556.5,
+            "stock_code": "RELIND",
+            "volume": 2568
+        },
+        {
+            "close": 2556.9,
+            "datetime": "2022-11-23 12:37:00",
+            "exchange_code": "NSE",
+            "high": 2557.65,
+            "low": 2556.65,
+            "open": 2557.65,
+            "stock_code": "RELIND",
+            "volume": 1786
+        },
+        {
+            "close": 2556.8,
+            "datetime": "2022-11-23 12:38:00",
+            "exchange_code": "NSE",
+            "high": 2556.95,
+            "low": 2556.8,
+            "open": 2556.9,
+            "stock_code": "RELIND",
+            "volume": 1942
+        },
+        {
+            "close": 2558.1,
+            "datetime": "2022-11-23 12:39:00",
+            "exchange_code": "NSE",
+            "high": 2558.2,
+            "low": 2556.8,
+            "open": 2556.8,
+            "stock_code": "RELIND",
+            "volume": 4542
+        },
+        {
+            "close": 2557.3,
+            "datetime": "2022-11-23 12:40:00",
+            "exchange_code": "NSE",
+            "high": 2558.75,
+            "low": 2556.5,
+            "open": 2558.1,
+            "stock_code": "RELIND",
+            "volume": 6176
+        },
+        {
+            "close": 2556.2,
+            "datetime": "2022-11-23 12:41:00",
+            "exchange_code": "NSE",
+            "high": 2557.25,
+            "low": 2556.1,
+            "open": 2557.2,
+            "stock_code": "RELIND",
+            "volume": 3324
+        },
+        {
+            "close": 2556.85,
+            "datetime": "2022-11-23 12:42:00",
+            "exchange_code": "NSE",
+            "high": 2557.0,
+            "low": 2556.2,
+            "open": 2556.35,
+            "stock_code": "RELIND",
+            "volume": 3577
+        },
+        {
+            "close": 2556.5,
+            "datetime": "2022-11-23 12:43:00",
+            "exchange_code": "NSE",
+            "high": 2556.85,
+            "low": 2556.45,
+            "open": 2556.85,
+            "stock_code": "RELIND",
+            "volume": 2928
+        },
+        {
+            "close": 2558.45,
+            "datetime": "2022-11-23 12:44:00",
+            "exchange_code": "NSE",
+            "high": 2559.5,
+            "low": 2556.45,
+            "open": 2556.5,
+            "stock_code": "RELIND",
+            "volume": 7910
+        },
+        {
+            "close": 2558.0,
+            "datetime": "2022-11-23 12:45:00",
+            "exchange_code": "NSE",
+            "high": 2558.45,
+            "low": 2558.0,
+            "open": 2558.45,
+            "stock_code": "RELIND",
+            "volume": 2094
+        },
+        {
+            "close": 2557.8,
+            "datetime": "2022-11-23 12:46:00",
+            "exchange_code": "NSE",
+            "high": 2557.8,
+            "low": 2557.5,
+            "open": 2557.8,
+            "stock_code": "RELIND",
+            "volume": 2685
+        },
+        {
+            "close": 2557.7,
+            "datetime": "2022-11-23 12:47:00",
+            "exchange_code": "NSE",
+            "high": 2557.8,
+            "low": 2556.75,
+            "open": 2557.8,
+            "stock_code": "RELIND",
+            "volume": 4735
+        },
+        {
+            "close": 2556.75,
+            "datetime": "2022-11-23 12:48:00",
+            "exchange_code": "NSE",
+            "high": 2557.7,
+            "low": 2556.7,
+            "open": 2557.7,
+            "stock_code": "RELIND",
+            "volume": 3117
+        },
+        {
+            "close": 2556.8,
+            "datetime": "2022-11-23 12:49:00",
+            "exchange_code": "NSE",
+            "high": 2556.8,
+            "low": 2556.7,
+            "open": 2556.7,
+            "stock_code": "RELIND",
+            "volume": 9203
+        },
+        {
+            "close": 2557.5,
+            "datetime": "2022-11-23 12:50:00",
+            "exchange_code": "NSE",
+            "high": 2558.15,
+            "low": 2556.75,
+            "open": 2556.8,
+            "stock_code": "RELIND",
+            "volume": 10002
+        },
+        {
+            "close": 2558.3,
+            "datetime": "2022-11-23 12:51:00",
+            "exchange_code": "NSE",
+            "high": 2558.45,
+            "low": 2557.5,
+            "open": 2557.5,
+            "stock_code": "RELIND",
+            "volume": 2777
+        },
+        {
+            "close": 2558.3,
+            "datetime": "2022-11-23 12:52:00",
+            "exchange_code": "NSE",
+            "high": 2558.45,
+            "low": 2558.3,
+            "open": 2558.3,
+            "stock_code": "RELIND",
+            "volume": 5380
+        },
+        {
+            "close": 2558.25,
+            "datetime": "2022-11-23 12:53:00",
+            "exchange_code": "NSE",
+            "high": 2558.35,
+            "low": 2558.25,
+            "open": 2558.35,
+            "stock_code": "RELIND",
+            "volume": 2667
+        },
+        {
+            "close": 2558.35,
+            "datetime": "2022-11-23 12:54:00",
+            "exchange_code": "NSE",
+            "high": 2558.35,
+            "low": 2558.15,
+            "open": 2558.25,
+            "stock_code": "RELIND",
+            "volume": 8211
+        },
+        {
+            "close": 2558.95,
+            "datetime": "2022-11-23 12:55:00",
+            "exchange_code": "NSE",
+            "high": 2559.9,
+            "low": 2558.3,
+            "open": 2558.3,
+            "stock_code": "RELIND",
+            "volume": 13314
+        },
+        {
+            "close": 2559.8,
+            "datetime": "2022-11-23 12:56:00",
+            "exchange_code": "NSE",
+            "high": 2560.5,
+            "low": 2558.5,
+            "open": 2559.75,
+            "stock_code": "RELIND",
+            "volume": 7025
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 12:57:00",
+            "exchange_code": "NSE",
+            "high": 2560.25,
+            "low": 2559.1,
+            "open": 2559.55,
+            "stock_code": "RELIND",
+            "volume": 6556
+        },
+        {
+            "close": 2560.05,
+            "datetime": "2022-11-23 12:58:00",
+            "exchange_code": "NSE",
+            "high": 2560.1,
+            "low": 2560.0,
+            "open": 2560.1,
+            "stock_code": "RELIND",
+            "volume": 12597
+        },
+        {
+            "close": 2560.05,
+            "datetime": "2022-11-23 12:59:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2560.0,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 10046
+        },
+        {
+            "close": 2560.05,
+            "datetime": "2022-11-23 13:00:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2560.0,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 5860
+        },
+        {
+            "close": 2560.05,
+            "datetime": "2022-11-23 13:01:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2560.0,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 4236
+        },
+        {
+            "close": 2560.05,
+            "datetime": "2022-11-23 13:02:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2560.0,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 3728
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 13:03:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2560.0,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 3222
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 13:04:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2560.0,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 3333
+        },
+        {
+            "close": 2560.1,
+            "datetime": "2022-11-23 13:05:00",
+            "exchange_code": "NSE",
+            "high": 2560.1,
+            "low": 2560.0,
+            "open": 2560.0,
+            "stock_code": "RELIND",
+            "volume": 11638
+        },
+        {
+            "close": 2560.05,
+            "datetime": "2022-11-23 13:06:00",
+            "exchange_code": "NSE",
+            "high": 2560.1,
+            "low": 2560.0,
+            "open": 2560.1,
+            "stock_code": "RELIND",
+            "volume": 2966
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 13:07:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2560.0,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 3555
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 13:08:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2560.0,
+            "open": 2560.0,
+            "stock_code": "RELIND",
+            "volume": 6086
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 13:09:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2560.0,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 8386
+        },
+        {
+            "close": 2560.05,
+            "datetime": "2022-11-23 13:10:00",
+            "exchange_code": "NSE",
+            "high": 2560.1,
+            "low": 2560.0,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 12076
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 13:11:00",
+            "exchange_code": "NSE",
+            "high": 2560.1,
+            "low": 2559.95,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 4584
+        },
+        {
+            "close": 2560.15,
+            "datetime": "2022-11-23 13:12:00",
+            "exchange_code": "NSE",
+            "high": 2560.15,
+            "low": 2559.95,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 5695
+        },
+        {
+            "close": 2560.15,
+            "datetime": "2022-11-23 13:13:00",
+            "exchange_code": "NSE",
+            "high": 2560.15,
+            "low": 2560.0,
+            "open": 2560.1,
+            "stock_code": "RELIND",
+            "volume": 4126
+        },
+        {
+            "close": 2561.35,
+            "datetime": "2022-11-23 13:14:00",
+            "exchange_code": "NSE",
+            "high": 2561.7,
+            "low": 2560.15,
+            "open": 2560.15,
+            "stock_code": "RELIND",
+            "volume": 12755
+        },
+        {
+            "close": 2560.85,
+            "datetime": "2022-11-23 13:15:00",
+            "exchange_code": "NSE",
+            "high": 2561.9,
+            "low": 2560.5,
+            "open": 2561.35,
+            "stock_code": "RELIND",
+            "volume": 4711
+        },
+        {
+            "close": 2561.6,
+            "datetime": "2022-11-23 13:16:00",
+            "exchange_code": "NSE",
+            "high": 2561.9,
+            "low": 2560.35,
+            "open": 2560.85,
+            "stock_code": "RELIND",
+            "volume": 2914
+        },
+        {
+            "close": 2560.6,
+            "datetime": "2022-11-23 13:17:00",
+            "exchange_code": "NSE",
+            "high": 2561.6,
+            "low": 2560.6,
+            "open": 2561.6,
+            "stock_code": "RELIND",
+            "volume": 5029
+        },
+        {
+            "close": 2559.9,
+            "datetime": "2022-11-23 13:18:00",
+            "exchange_code": "NSE",
+            "high": 2560.65,
+            "low": 2559.6,
+            "open": 2560.65,
+            "stock_code": "RELIND",
+            "volume": 6933
+        },
+        {
+            "close": 2561.15,
+            "datetime": "2022-11-23 13:19:00",
+            "exchange_code": "NSE",
+            "high": 2561.45,
+            "low": 2559.7,
+            "open": 2559.9,
+            "stock_code": "RELIND",
+            "volume": 25002
+        },
+        {
+            "close": 2561.2,
+            "datetime": "2022-11-23 13:20:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.15,
+            "open": 2561.15,
+            "stock_code": "RELIND",
+            "volume": 5142
+        },
+        {
+            "close": 2561.0,
+            "datetime": "2022-11-23 13:21:00",
+            "exchange_code": "NSE",
+            "high": 2561.3,
+            "low": 2559.55,
+            "open": 2561.3,
+            "stock_code": "RELIND",
+            "volume": 6815
+        },
+        {
+            "close": 2561.05,
+            "datetime": "2022-11-23 13:22:00",
+            "exchange_code": "NSE",
+            "high": 2561.95,
+            "low": 2560.0,
+            "open": 2561.0,
+            "stock_code": "RELIND",
+            "volume": 6109
+        },
+        {
+            "close": 2561.0,
+            "datetime": "2022-11-23 13:23:00",
+            "exchange_code": "NSE",
+            "high": 2561.45,
+            "low": 2560.15,
+            "open": 2561.45,
+            "stock_code": "RELIND",
+            "volume": 3951
+        },
+        {
+            "close": 2560.6,
+            "datetime": "2022-11-23 13:24:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2560.05,
+            "open": 2561.0,
+            "stock_code": "RELIND",
+            "volume": 3895
+        },
+        {
+            "close": 2559.7,
+            "datetime": "2022-11-23 13:25:00",
+            "exchange_code": "NSE",
+            "high": 2561.5,
+            "low": 2559.7,
+            "open": 2561.5,
+            "stock_code": "RELIND",
+            "volume": 6180
+        },
+        {
+            "close": 2561.05,
+            "datetime": "2022-11-23 13:26:00",
+            "exchange_code": "NSE",
+            "high": 2561.75,
+            "low": 2559.6,
+            "open": 2559.7,
+            "stock_code": "RELIND",
+            "volume": 10329
+        },
+        {
+            "close": 2560.25,
+            "datetime": "2022-11-23 13:27:00",
+            "exchange_code": "NSE",
+            "high": 2561.8,
+            "low": 2560.0,
+            "open": 2561.7,
+            "stock_code": "RELIND",
+            "volume": 5605
+        },
+        {
+            "close": 2560.65,
+            "datetime": "2022-11-23 13:28:00",
+            "exchange_code": "NSE",
+            "high": 2561.45,
+            "low": 2560.1,
+            "open": 2560.1,
+            "stock_code": "RELIND",
+            "volume": 4719
+        },
+        {
+            "close": 2560.05,
+            "datetime": "2022-11-23 13:29:00",
+            "exchange_code": "NSE",
+            "high": 2560.7,
+            "low": 2560.0,
+            "open": 2560.7,
+            "stock_code": "RELIND",
+            "volume": 6598
+        },
+        {
+            "close": 2559.5,
+            "datetime": "2022-11-23 13:30:00",
+            "exchange_code": "NSE",
+            "high": 2560.5,
+            "low": 2559.5,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 6645
+        },
+        {
+            "close": 2559.55,
+            "datetime": "2022-11-23 13:31:00",
+            "exchange_code": "NSE",
+            "high": 2559.6,
+            "low": 2559.4,
+            "open": 2559.6,
+            "stock_code": "RELIND",
+            "volume": 5909
+        },
+        {
+            "close": 2559.85,
+            "datetime": "2022-11-23 13:32:00",
+            "exchange_code": "NSE",
+            "high": 2559.85,
+            "low": 2559.25,
+            "open": 2559.55,
+            "stock_code": "RELIND",
+            "volume": 8041
+        },
+        {
+            "close": 2559.7,
+            "datetime": "2022-11-23 13:33:00",
+            "exchange_code": "NSE",
+            "high": 2560.5,
+            "low": 2559.25,
+            "open": 2560.0,
+            "stock_code": "RELIND",
+            "volume": 4646
+        },
+        {
+            "close": 2559.8,
+            "datetime": "2022-11-23 13:34:00",
+            "exchange_code": "NSE",
+            "high": 2560.35,
+            "low": 2559.4,
+            "open": 2559.4,
+            "stock_code": "RELIND",
+            "volume": 3844
+        },
+        {
+            "close": 2560.15,
+            "datetime": "2022-11-23 13:35:00",
+            "exchange_code": "NSE",
+            "high": 2561.05,
+            "low": 2559.65,
+            "open": 2559.7,
+            "stock_code": "RELIND",
+            "volume": 7422
+        },
+        {
+            "close": 2559.75,
+            "datetime": "2022-11-23 13:36:00",
+            "exchange_code": "NSE",
+            "high": 2560.1,
+            "low": 2559.65,
+            "open": 2560.1,
+            "stock_code": "RELIND",
+            "volume": 4854
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 13:37:00",
+            "exchange_code": "NSE",
+            "high": 2561.95,
+            "low": 2559.85,
+            "open": 2559.85,
+            "stock_code": "RELIND",
+            "volume": 7470
+        },
+        {
+            "close": 2560.45,
+            "datetime": "2022-11-23 13:38:00",
+            "exchange_code": "NSE",
+            "high": 2561.45,
+            "low": 2560.0,
+            "open": 2560.0,
+            "stock_code": "RELIND",
+            "volume": 5605
+        },
+        {
+            "close": 2560.65,
+            "datetime": "2022-11-23 13:39:00",
+            "exchange_code": "NSE",
+            "high": 2561.7,
+            "low": 2560.2,
+            "open": 2560.45,
+            "stock_code": "RELIND",
+            "volume": 3218
+        },
+        {
+            "close": 2560.75,
+            "datetime": "2022-11-23 13:40:00",
+            "exchange_code": "NSE",
+            "high": 2561.85,
+            "low": 2560.65,
+            "open": 2561.5,
+            "stock_code": "RELIND",
+            "volume": 6037
+        },
+        {
+            "close": 2560.55,
+            "datetime": "2022-11-23 13:41:00",
+            "exchange_code": "NSE",
+            "high": 2561.85,
+            "low": 2560.5,
+            "open": 2560.9,
+            "stock_code": "RELIND",
+            "volume": 5199
+        },
+        {
+            "close": 2560.4,
+            "datetime": "2022-11-23 13:42:00",
+            "exchange_code": "NSE",
+            "high": 2561.4,
+            "low": 2560.4,
+            "open": 2560.55,
+            "stock_code": "RELIND",
+            "volume": 3942
+        },
+        {
+            "close": 2560.1,
+            "datetime": "2022-11-23 13:43:00",
+            "exchange_code": "NSE",
+            "high": 2560.4,
+            "low": 2560.0,
+            "open": 2560.3,
+            "stock_code": "RELIND",
+            "volume": 6979
+        },
+        {
+            "close": 2561.05,
+            "datetime": "2022-11-23 13:44:00",
+            "exchange_code": "NSE",
+            "high": 2561.8,
+            "low": 2560.45,
+            "open": 2560.45,
+            "stock_code": "RELIND",
+            "volume": 4387
+        },
+        {
+            "close": 2560.8,
+            "datetime": "2022-11-23 13:45:00",
+            "exchange_code": "NSE",
+            "high": 2561.15,
+            "low": 2560.8,
+            "open": 2561.15,
+            "stock_code": "RELIND",
+            "volume": 4262
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 13:46:00",
+            "exchange_code": "NSE",
+            "high": 2560.85,
+            "low": 2560.0,
+            "open": 2560.8,
+            "stock_code": "RELIND",
+            "volume": 5286
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 13:47:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2560.0,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 3090
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 13:48:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2560.0,
+            "open": 2560.0,
+            "stock_code": "RELIND",
+            "volume": 2366
+        },
+        {
+            "close": 2560.05,
+            "datetime": "2022-11-23 13:49:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2560.0,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 2222
+        },
+        {
+            "close": 2559.95,
+            "datetime": "2022-11-23 13:50:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2559.9,
+            "open": 2560.0,
+            "stock_code": "RELIND",
+            "volume": 4054
+        },
+        {
+            "close": 2560.15,
+            "datetime": "2022-11-23 13:51:00",
+            "exchange_code": "NSE",
+            "high": 2560.15,
+            "low": 2559.9,
+            "open": 2559.95,
+            "stock_code": "RELIND",
+            "volume": 18585
+        },
+        {
+            "close": 2560.1,
+            "datetime": "2022-11-23 13:52:00",
+            "exchange_code": "NSE",
+            "high": 2560.2,
+            "low": 2560.0,
+            "open": 2560.15,
+            "stock_code": "RELIND",
+            "volume": 6283
+        },
+        {
+            "close": 2560.4,
+            "datetime": "2022-11-23 13:53:00",
+            "exchange_code": "NSE",
+            "high": 2561.2,
+            "low": 2560.25,
+            "open": 2560.4,
+            "stock_code": "RELIND",
+            "volume": 2962
+        },
+        {
+            "close": 2559.55,
+            "datetime": "2022-11-23 13:54:00",
+            "exchange_code": "NSE",
+            "high": 2561.35,
+            "low": 2559.5,
+            "open": 2560.25,
+            "stock_code": "RELIND",
+            "volume": 5017
+        },
+        {
+            "close": 2560.3,
+            "datetime": "2022-11-23 13:55:00",
+            "exchange_code": "NSE",
+            "high": 2560.35,
+            "low": 2558.95,
+            "open": 2559.5,
+            "stock_code": "RELIND",
+            "volume": 14052
+        },
+        {
+            "close": 2560.9,
+            "datetime": "2022-11-23 13:56:00",
+            "exchange_code": "NSE",
+            "high": 2560.9,
+            "low": 2559.5,
+            "open": 2559.5,
+            "stock_code": "RELIND",
+            "volume": 3620
+        },
+        {
+            "close": 2560.0,
+            "datetime": "2022-11-23 13:57:00",
+            "exchange_code": "NSE",
+            "high": 2560.75,
+            "low": 2560.0,
+            "open": 2560.4,
+            "stock_code": "RELIND",
+            "volume": 2120
+        },
+        {
+            "close": 2559.95,
+            "datetime": "2022-11-23 13:58:00",
+            "exchange_code": "NSE",
+            "high": 2560.05,
+            "low": 2559.9,
+            "open": 2560.05,
+            "stock_code": "RELIND",
+            "volume": 2445
+        },
+        {
+            "close": 2559.85,
+            "datetime": "2022-11-23 13:59:00",
+            "exchange_code": "NSE",
+            "high": 2560.0,
+            "low": 2559.85,
+            "open": 2559.9,
+            "stock_code": "RELIND",
+            "volume": 4408
+        },
+        {
+            "close": 2559.65,
+            "datetime": "2022-11-23 14:00:00",
+            "exchange_code": "NSE",
+            "high": 2559.85,
+            "low": 2559.55,
+            "open": 2559.8,
+            "stock_code": "RELIND",
+            "volume": 4336
+        },
+        {
+            "close": 2559.8,
+            "datetime": "2022-11-23 14:01:00",
+            "exchange_code": "NSE",
+            "high": 2559.85,
+            "low": 2559.55,
+            "open": 2559.65,
+            "stock_code": "RELIND",
+            "volume": 6910
+        },
+        {
+            "close": 2561.55,
+            "datetime": "2022-11-23 14:02:00",
+            "exchange_code": "NSE",
+            "high": 2561.8,
+            "low": 2559.65,
+            "open": 2559.8,
+            "stock_code": "RELIND",
+            "volume": 7167
+        },
+        {
+            "close": 2563.5,
+            "datetime": "2022-11-23 14:03:00",
+            "exchange_code": "NSE",
+            "high": 2564.0,
+            "low": 2561.65,
+            "open": 2561.9,
+            "stock_code": "RELIND",
+            "volume": 15950
+        },
+        {
+            "close": 2564.6,
+            "datetime": "2022-11-23 14:04:00",
+            "exchange_code": "NSE",
+            "high": 2565.0,
+            "low": 2563.5,
+            "open": 2563.5,
+            "stock_code": "RELIND",
+            "volume": 13125
+        },
+        {
+            "close": 2564.05,
+            "datetime": "2022-11-23 14:05:00",
+            "exchange_code": "NSE",
+            "high": 2564.6,
+            "low": 2563.55,
+            "open": 2564.6,
+            "stock_code": "RELIND",
+            "volume": 8514
+        },
+        {
+            "close": 2563.15,
+            "datetime": "2022-11-23 14:06:00",
+            "exchange_code": "NSE",
+            "high": 2564.0,
+            "low": 2563.0,
+            "open": 2564.0,
+            "stock_code": "RELIND",
+            "volume": 4627
+        },
+        {
+            "close": 2563.55,
+            "datetime": "2022-11-23 14:07:00",
+            "exchange_code": "NSE",
+            "high": 2563.95,
+            "low": 2562.45,
+            "open": 2563.15,
+            "stock_code": "RELIND",
+            "volume": 8244
+        },
+        {
+            "close": 2563.6,
+            "datetime": "2022-11-23 14:08:00",
+            "exchange_code": "NSE",
+            "high": 2563.95,
+            "low": 2562.55,
+            "open": 2563.55,
+            "stock_code": "RELIND",
+            "volume": 6929
+        },
+        {
+            "close": 2563.2,
+            "datetime": "2022-11-23 14:09:00",
+            "exchange_code": "NSE",
+            "high": 2563.75,
+            "low": 2563.1,
+            "open": 2563.6,
+            "stock_code": "RELIND",
+            "volume": 5284
+        },
+        {
+            "close": 2562.5,
+            "datetime": "2022-11-23 14:10:00",
+            "exchange_code": "NSE",
+            "high": 2563.2,
+            "low": 2562.5,
+            "open": 2563.2,
+            "stock_code": "RELIND",
+            "volume": 3553
+        },
+        {
+            "close": 2561.6,
+            "datetime": "2022-11-23 14:11:00",
+            "exchange_code": "NSE",
+            "high": 2562.5,
+            "low": 2561.45,
+            "open": 2562.5,
+            "stock_code": "RELIND",
+            "volume": 4113
+        },
+        {
+            "close": 2561.65,
+            "datetime": "2022-11-23 14:12:00",
+            "exchange_code": "NSE",
+            "high": 2563.9,
+            "low": 2561.05,
+            "open": 2561.65,
+            "stock_code": "RELIND",
+            "volume": 13615
+        },
+        {
+            "close": 2561.75,
+            "datetime": "2022-11-23 14:13:00",
+            "exchange_code": "NSE",
+            "high": 2563.5,
+            "low": 2561.65,
+            "open": 2563.5,
+            "stock_code": "RELIND",
+            "volume": 3247
+        },
+        {
+            "close": 2561.8,
+            "datetime": "2022-11-23 14:14:00",
+            "exchange_code": "NSE",
+            "high": 2562.35,
+            "low": 2561.15,
+            "open": 2561.7,
+            "stock_code": "RELIND",
+            "volume": 3418
+        },
+        {
+            "close": 2561.2,
+            "datetime": "2022-11-23 14:15:00",
+            "exchange_code": "NSE",
+            "high": 2561.8,
+            "low": 2561.05,
+            "open": 2561.8,
+            "stock_code": "RELIND",
+            "volume": 5346
+        },
+        {
+            "close": 2561.05,
+            "datetime": "2022-11-23 14:16:00",
+            "exchange_code": "NSE",
+            "high": 2561.25,
+            "low": 2560.9,
+            "open": 2561.25,
+            "stock_code": "RELIND",
+            "volume": 6588
+        },
+        {
+            "close": 2561.0,
+            "datetime": "2022-11-23 14:17:00",
+            "exchange_code": "NSE",
+            "high": 2561.15,
+            "low": 2560.15,
+            "open": 2561.05,
+            "stock_code": "RELIND",
+            "volume": 3911
+        },
+        {
+            "close": 2560.95,
+            "datetime": "2022-11-23 14:18:00",
+            "exchange_code": "NSE",
+            "high": 2561.5,
+            "low": 2560.5,
+            "open": 2561.0,
+            "stock_code": "RELIND",
+            "volume": 5367
+        },
+        {
+            "close": 2560.5,
+            "datetime": "2022-11-23 14:19:00",
+            "exchange_code": "NSE",
+            "high": 2561.85,
+            "low": 2560.5,
+            "open": 2560.95,
+            "stock_code": "RELIND",
+            "volume": 7975
+        },
+        {
+            "close": 2560.5,
+            "datetime": "2022-11-23 14:20:00",
+            "exchange_code": "NSE",
+            "high": 2561.35,
+            "low": 2560.5,
+            "open": 2560.75,
+            "stock_code": "RELIND",
+            "volume": 3105
+        },
+        {
+            "close": 2560.4,
+            "datetime": "2022-11-23 14:21:00",
+            "exchange_code": "NSE",
+            "high": 2561.25,
+            "low": 2560.0,
+            "open": 2560.5,
+            "stock_code": "RELIND",
+            "volume": 10279
+        },
+        {
+            "close": 2560.15,
+            "datetime": "2022-11-23 14:22:00",
+            "exchange_code": "NSE",
+            "high": 2561.1,
+            "low": 2560.15,
+            "open": 2560.4,
+            "stock_code": "RELIND",
+            "volume": 3947
+        },
+        {
+            "close": 2558.75,
+            "datetime": "2022-11-23 14:23:00",
+            "exchange_code": "NSE",
+            "high": 2560.1,
+            "low": 2558.55,
+            "open": 2560.1,
+            "stock_code": "RELIND",
+            "volume": 13570
+        },
+        {
+            "close": 2558.9,
+            "datetime": "2022-11-23 14:24:00",
+            "exchange_code": "NSE",
+            "high": 2560.7,
+            "low": 2558.5,
+            "open": 2558.75,
+            "stock_code": "RELIND",
+            "volume": 7950
+        },
+        {
+            "close": 2559.55,
+            "datetime": "2022-11-23 14:25:00",
+            "exchange_code": "NSE",
+            "high": 2559.95,
+            "low": 2558.55,
+            "open": 2558.9,
+            "stock_code": "RELIND",
+            "volume": 4469
+        },
+        {
+            "close": 2560.35,
+            "datetime": "2022-11-23 14:26:00",
+            "exchange_code": "NSE",
+            "high": 2561.15,
+            "low": 2559.5,
+            "open": 2559.55,
+            "stock_code": "RELIND",
+            "volume": 4898
+        },
+        {
+            "close": 2561.3,
+            "datetime": "2022-11-23 14:27:00",
+            "exchange_code": "NSE",
+            "high": 2561.3,
+            "low": 2560.0,
+            "open": 2560.2,
+            "stock_code": "RELIND",
+            "volume": 10505
+        },
+        {
+            "close": 2562.3,
+            "datetime": "2022-11-23 14:28:00",
+            "exchange_code": "NSE",
+            "high": 2562.75,
+            "low": 2560.65,
+            "open": 2561.05,
+            "stock_code": "RELIND",
+            "volume": 4571
+        },
+        {
+            "close": 2561.25,
+            "datetime": "2022-11-23 14:29:00",
+            "exchange_code": "NSE",
+            "high": 2562.9,
+            "low": 2561.1,
+            "open": 2562.75,
+            "stock_code": "RELIND",
+            "volume": 4497
+        },
+        {
+            "close": 2561.65,
+            "datetime": "2022-11-23 14:30:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.2,
+            "open": 2561.5,
+            "stock_code": "RELIND",
+            "volume": 5965
+        },
+        {
+            "close": 2561.55,
+            "datetime": "2022-11-23 14:31:00",
+            "exchange_code": "NSE",
+            "high": 2561.75,
+            "low": 2561.5,
+            "open": 2561.65,
+            "stock_code": "RELIND",
+            "volume": 5696
+        },
+        {
+            "close": 2561.7,
+            "datetime": "2022-11-23 14:32:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.45,
+            "open": 2561.45,
+            "stock_code": "RELIND",
+            "volume": 7407
+        },
+        {
+            "close": 2561.9,
+            "datetime": "2022-11-23 14:33:00",
+            "exchange_code": "NSE",
+            "high": 2561.9,
+            "low": 2561.25,
+            "open": 2561.7,
+            "stock_code": "RELIND",
+            "volume": 9090
+        },
+        {
+            "close": 2562.95,
+            "datetime": "2022-11-23 14:34:00",
+            "exchange_code": "NSE",
+            "high": 2562.95,
+            "low": 2561.8,
+            "open": 2561.8,
+            "stock_code": "RELIND",
+            "volume": 8124
+        },
+        {
+            "close": 2561.5,
+            "datetime": "2022-11-23 14:35:00",
+            "exchange_code": "NSE",
+            "high": 2562.95,
+            "low": 2561.5,
+            "open": 2562.7,
+            "stock_code": "RELIND",
+            "volume": 4372
+        },
+        {
+            "close": 2562.95,
+            "datetime": "2022-11-23 14:36:00",
+            "exchange_code": "NSE",
+            "high": 2562.95,
+            "low": 2561.55,
+            "open": 2561.55,
+            "stock_code": "RELIND",
+            "volume": 8900
+        },
+        {
+            "close": 2562.55,
+            "datetime": "2022-11-23 14:37:00",
+            "exchange_code": "NSE",
+            "high": 2563.6,
+            "low": 2562.05,
+            "open": 2562.85,
+            "stock_code": "RELIND",
+            "volume": 5913
+        },
+        {
+            "close": 2561.3,
+            "datetime": "2022-11-23 14:38:00",
+            "exchange_code": "NSE",
+            "high": 2562.6,
+            "low": 2561.15,
+            "open": 2562.55,
+            "stock_code": "RELIND",
+            "volume": 6567
+        },
+        {
+            "close": 2561.45,
+            "datetime": "2022-11-23 14:39:00",
+            "exchange_code": "NSE",
+            "high": 2561.55,
+            "low": 2561.35,
+            "open": 2561.4,
+            "stock_code": "RELIND",
+            "volume": 6595
+        },
+        {
+            "close": 2563.0,
+            "datetime": "2022-11-23 14:40:00",
+            "exchange_code": "NSE",
+            "high": 2563.05,
+            "low": 2561.4,
+            "open": 2561.45,
+            "stock_code": "RELIND",
+            "volume": 6881
+        },
+        {
+            "close": 2562.55,
+            "datetime": "2022-11-23 14:41:00",
+            "exchange_code": "NSE",
+            "high": 2563.5,
+            "low": 2562.35,
+            "open": 2563.05,
+            "stock_code": "RELIND",
+            "volume": 5255
+        },
+        {
+            "close": 2561.8,
+            "datetime": "2022-11-23 14:42:00",
+            "exchange_code": "NSE",
+            "high": 2562.55,
+            "low": 2561.8,
+            "open": 2562.3,
+            "stock_code": "RELIND",
+            "volume": 5989
+        },
+        {
+            "close": 2561.6,
+            "datetime": "2022-11-23 14:43:00",
+            "exchange_code": "NSE",
+            "high": 2562.0,
+            "low": 2561.5,
+            "open": 2562.0,
+            "stock_code": "RELIND",
+            "volume": 4005
+        },
+        {
+            "close": 2561.85,
+            "datetime": "2022-11-23 14:44:00",
+            "exchange_code": "NSE",
+            "high": 2562.45,
+            "low": 2561.6,
+            "open": 2561.6,
+            "stock_code": "RELIND",
+            "volume": 6994
+        },
+        {
+            "close": 2561.8,
+            "datetime": "2022-11-23 14:45:00",
+            "exchange_code": "NSE",
+            "high": 2561.9,
+            "low": 2561.75,
+            "open": 2561.85,
+            "stock_code": "RELIND",
+            "volume": 5493
+        },
+        {
+            "close": 2562.4,
+            "datetime": "2022-11-23 14:46:00",
+            "exchange_code": "NSE",
+            "high": 2562.4,
+            "low": 2561.5,
+            "open": 2561.9,
+            "stock_code": "RELIND",
+            "volume": 6998
+        },
+        {
+            "close": 2562.05,
+            "datetime": "2022-11-23 14:47:00",
+            "exchange_code": "NSE",
+            "high": 2562.35,
+            "low": 2561.55,
+            "open": 2562.35,
+            "stock_code": "RELIND",
+            "volume": 5309
+        },
+        {
+            "close": 2561.75,
+            "datetime": "2022-11-23 14:48:00",
+            "exchange_code": "NSE",
+            "high": 2562.65,
+            "low": 2561.7,
+            "open": 2562.05,
+            "stock_code": "RELIND",
+            "volume": 5345
+        },
+        {
+            "close": 2562.4,
+            "datetime": "2022-11-23 14:49:00",
+            "exchange_code": "NSE",
+            "high": 2562.4,
+            "low": 2561.6,
+            "open": 2561.75,
+            "stock_code": "RELIND",
+            "volume": 6985
+        },
+        {
+            "close": 2561.85,
+            "datetime": "2022-11-23 14:50:00",
+            "exchange_code": "NSE",
+            "high": 2562.4,
+            "low": 2561.85,
+            "open": 2562.35,
+            "stock_code": "RELIND",
+            "volume": 5928
+        },
+        {
+            "close": 2563.15,
+            "datetime": "2022-11-23 14:51:00",
+            "exchange_code": "NSE",
+            "high": 2563.4,
+            "low": 2561.85,
+            "open": 2561.85,
+            "stock_code": "RELIND",
+            "volume": 15193
+        },
+        {
+            "close": 2563.35,
+            "datetime": "2022-11-23 14:52:00",
+            "exchange_code": "NSE",
+            "high": 2563.5,
+            "low": 2563.05,
+            "open": 2563.4,
+            "stock_code": "RELIND",
+            "volume": 5798
+        },
+        {
+            "close": 2562.55,
+            "datetime": "2022-11-23 14:53:00",
+            "exchange_code": "NSE",
+            "high": 2563.4,
+            "low": 2562.5,
+            "open": 2563.35,
+            "stock_code": "RELIND",
+            "volume": 5408
+        },
+        {
+            "close": 2562.05,
+            "datetime": "2022-11-23 14:54:00",
+            "exchange_code": "NSE",
+            "high": 2562.6,
+            "low": 2561.9,
+            "open": 2562.6,
+            "stock_code": "RELIND",
+            "volume": 6853
+        },
+        {
+            "close": 2562.75,
+            "datetime": "2022-11-23 14:55:00",
+            "exchange_code": "NSE",
+            "high": 2562.8,
+            "low": 2562.0,
+            "open": 2562.0,
+            "stock_code": "RELIND",
+            "volume": 10905
+        },
+        {
+            "close": 2563.0,
+            "datetime": "2022-11-23 14:56:00",
+            "exchange_code": "NSE",
+            "high": 2563.0,
+            "low": 2562.5,
+            "open": 2562.75,
+            "stock_code": "RELIND",
+            "volume": 5846
+        },
+        {
+            "close": 2562.0,
+            "datetime": "2022-11-23 14:57:00",
+            "exchange_code": "NSE",
+            "high": 2563.5,
+            "low": 2562.0,
+            "open": 2563.0,
+            "stock_code": "RELIND",
+            "volume": 7949
+        },
+        {
+            "close": 2562.3,
+            "datetime": "2022-11-23 14:58:00",
+            "exchange_code": "NSE",
+            "high": 2563.0,
+            "low": 2561.9,
+            "open": 2562.0,
+            "stock_code": "RELIND",
+            "volume": 9421
+        },
+        {
+            "close": 2562.8,
+            "datetime": "2022-11-23 14:59:00",
+            "exchange_code": "NSE",
+            "high": 2563.0,
+            "low": 2562.25,
+            "open": 2562.3,
+            "stock_code": "RELIND",
+            "volume": 8564
+        },
+        {
+            "close": 2563.2,
+            "datetime": "2022-11-23 15:00:00",
+            "exchange_code": "NSE",
+            "high": 2564.5,
+            "low": 2562.6,
+            "open": 2563.7,
+            "stock_code": "RELIND",
+            "volume": 22322
+        },
+        {
+            "close": 2562.95,
+            "datetime": "2022-11-23 15:01:00",
+            "exchange_code": "NSE",
+            "high": 2563.25,
+            "low": 2562.65,
+            "open": 2563.15,
+            "stock_code": "RELIND",
+            "volume": 13976
+        },
+        {
+            "close": 2562.8,
+            "datetime": "2022-11-23 15:02:00",
+            "exchange_code": "NSE",
+            "high": 2563.0,
+            "low": 2562.8,
+            "open": 2562.95,
+            "stock_code": "RELIND",
+            "volume": 16933
+        },
+        {
+            "close": 2562.45,
+            "datetime": "2022-11-23 15:03:00",
+            "exchange_code": "NSE",
+            "high": 2562.8,
+            "low": 2562.0,
+            "open": 2562.8,
+            "stock_code": "RELIND",
+            "volume": 18648
+        },
+        {
+            "close": 2562.1,
+            "datetime": "2022-11-23 15:04:00",
+            "exchange_code": "NSE",
+            "high": 2562.45,
+            "low": 2561.75,
+            "open": 2562.35,
+            "stock_code": "RELIND",
+            "volume": 14873
+        },
+        {
+            "close": 2560.6,
+            "datetime": "2022-11-23 15:05:00",
+            "exchange_code": "NSE",
+            "high": 2562.15,
+            "low": 2560.6,
+            "open": 2562.1,
+            "stock_code": "RELIND",
+            "volume": 12903
+        },
+        {
+            "close": 2560.55,
+            "datetime": "2022-11-23 15:06:00",
+            "exchange_code": "NSE",
+            "high": 2561.0,
+            "low": 2560.35,
+            "open": 2560.55,
+            "stock_code": "RELIND",
+            "volume": 34498
+        },
+        {
+            "close": 2560.2,
+            "datetime": "2022-11-23 15:07:00",
+            "exchange_code": "NSE",
+            "high": 2560.65,
+            "low": 2560.0,
+            "open": 2560.6,
+            "stock_code": "RELIND",
+            "volume": 16218
+        },
+        {
+            "close": 2558.5,
+            "datetime": "2022-11-23 15:08:00",
+            "exchange_code": "NSE",
+            "high": 2560.3,
+            "low": 2558.5,
+            "open": 2560.3,
+            "stock_code": "RELIND",
+            "volume": 31637
+        },
+        {
+            "close": 2557.4,
+            "datetime": "2022-11-23 15:09:00",
+            "exchange_code": "NSE",
+            "high": 2558.55,
+            "low": 2557.05,
+            "open": 2558.55,
+            "stock_code": "RELIND",
+            "volume": 22823
+        },
+        {
+            "close": 2555.75,
+            "datetime": "2022-11-23 15:10:00",
+            "exchange_code": "NSE",
+            "high": 2557.35,
+            "low": 2555.75,
+            "open": 2557.35,
+            "stock_code": "RELIND",
+            "volume": 16111
+        },
+        {
+            "close": 2555.75,
+            "datetime": "2022-11-23 15:11:00",
+            "exchange_code": "NSE",
+            "high": 2556.0,
+            "low": 2555.65,
+            "open": 2556.0,
+            "stock_code": "RELIND",
+            "volume": 23770
+        },
+        {
+            "close": 2555.2,
+            "datetime": "2022-11-23 15:12:00",
+            "exchange_code": "NSE",
+            "high": 2555.75,
+            "low": 2555.0,
+            "open": 2555.75,
+            "stock_code": "RELIND",
+            "volume": 22837
+        },
+        {
+            "close": 2555.05,
+            "datetime": "2022-11-23 15:13:00",
+            "exchange_code": "NSE",
+            "high": 2555.25,
+            "low": 2555.0,
+            "open": 2555.2,
+            "stock_code": "RELIND",
+            "volume": 15112
+        },
+        {
+            "close": 2558.35,
+            "datetime": "2022-11-23 15:14:00",
+            "exchange_code": "NSE",
+            "high": 2558.35,
+            "low": 2555.0,
+            "open": 2555.05,
+            "stock_code": "RELIND",
+            "volume": 63148
+        },
+        {
+            "close": 2555.0,
+            "datetime": "2022-11-23 15:15:00",
+            "exchange_code": "NSE",
+            "high": 2558.6,
+            "low": 2555.0,
+            "open": 2558.5,
+            "stock_code": "RELIND",
+            "volume": 34068
+        },
+        {
+            "close": 2554.95,
+            "datetime": "2022-11-23 15:16:00",
+            "exchange_code": "NSE",
+            "high": 2555.75,
+            "low": 2553.75,
+            "open": 2554.8,
+            "stock_code": "RELIND",
+            "volume": 26352
+        },
+        {
+            "close": 2555.8,
+            "datetime": "2022-11-23 15:17:00",
+            "exchange_code": "NSE",
+            "high": 2556.7,
+            "low": 2554.95,
+            "open": 2554.95,
+            "stock_code": "RELIND",
+            "volume": 15634
+        },
+        {
+            "close": 2554.5,
+            "datetime": "2022-11-23 15:18:00",
+            "exchange_code": "NSE",
+            "high": 2555.85,
+            "low": 2554.0,
+            "open": 2555.8,
+            "stock_code": "RELIND",
+            "volume": 22425
+        },
+        {
+            "close": 2554.5,
+            "datetime": "2022-11-23 15:19:00",
+            "exchange_code": "NSE",
+            "high": 2554.6,
+            "low": 2553.6,
+            "open": 2554.5,
+            "stock_code": "RELIND",
+            "volume": 19026
+        },
+        {
+            "close": 2553.4,
+            "datetime": "2022-11-23 15:20:00",
+            "exchange_code": "NSE",
+            "high": 2554.6,
+            "low": 2552.4,
+            "open": 2554.55,
+            "stock_code": "RELIND",
+            "volume": 31880
+        },
+        {
+            "close": 2553.9,
+            "datetime": "2022-11-23 15:21:00",
+            "exchange_code": "NSE",
+            "high": 2553.95,
+            "low": 2552.25,
+            "open": 2553.35,
+            "stock_code": "RELIND",
+            "volume": 21213
+        },
+        {
+            "close": 2556.05,
+            "datetime": "2022-11-23 15:22:00",
+            "exchange_code": "NSE",
+            "high": 2556.05,
+            "low": 2553.8,
+            "open": 2553.9,
+            "stock_code": "RELIND",
+            "volume": 28269
+        },
+        {
+            "close": 2554.5,
+            "datetime": "2022-11-23 15:23:00",
+            "exchange_code": "NSE",
+            "high": 2556.15,
+            "low": 2554.0,
+            "open": 2555.7,
+            "stock_code": "RELIND",
+            "volume": 16766
+        },
+        {
+            "close": 2555.05,
+            "datetime": "2022-11-23 15:24:00",
+            "exchange_code": "NSE",
+            "high": 2555.95,
+            "low": 2553.95,
+            "open": 2554.5,
+            "stock_code": "RELIND",
+            "volume": 20090
+        },
+        {
+            "close": 2554.9,
+            "datetime": "2022-11-23 15:25:00",
+            "exchange_code": "NSE",
+            "high": 2555.85,
+            "low": 2554.35,
+            "open": 2555.75,
+            "stock_code": "RELIND",
+            "volume": 11630
+        },
+        {
+            "close": 2555.9,
+            "datetime": "2022-11-23 15:26:00",
+            "exchange_code": "NSE",
+            "high": 2555.9,
+            "low": 2554.7,
+            "open": 2555.0,
+            "stock_code": "RELIND",
+            "volume": 17863
+        },
+        {
+            "close": 2554.9,
+            "datetime": "2022-11-23 15:27:00",
+            "exchange_code": "NSE",
+            "high": 2555.65,
+            "low": 2554.6,
+            "open": 2555.45,
+            "stock_code": "RELIND",
+            "volume": 19030
+        },
+        {
+            "close": 2555.2,
+            "datetime": "2022-11-23 15:28:00",
+            "exchange_code": "NSE",
+            "high": 2555.2,
+            "low": 2554.0,
+            "open": 2554.6,
+            "stock_code": "RELIND",
+            "volume": 17115
+        },
+        {
+            "close": 2557.5,
+            "datetime": "2022-11-23 15:29:00",
+            "exchange_code": "NSE",
+            "high": 2557.5,
+            "low": 2554.5,
+            "open": 2555.0,
+            "stock_code": "RELIND",
+            "volume": 10676
+        }
+    ]
+}
