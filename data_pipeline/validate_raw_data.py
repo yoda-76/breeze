@@ -6,7 +6,7 @@ moves, or deletes anything under the raw directory.
 
 Usage:
 
-    python validate_raw_data.py --symbol RELIND [--interval 1m]
+    python data_pipeline/validate_raw_data.py --symbol RELIND [--interval 1m]
                                  [--holidays data/nse_holidays.json]
                                  [--report data/validation_report_RELIND.json]
 

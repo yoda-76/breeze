@@ -30,7 +30,7 @@ import sys
 import pandas as pd
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))   # .../backtest
-ROOT_DIR = os.path.dirname(THIS_DIR)                     # .../data_pipeline
+ROOT_DIR = os.path.dirname(THIS_DIR)                     # repo root (.../breeze)
 
 # Root-level modules (data_loader.py, features/vwap.py) live one level up.
 sys.path.insert(0, ROOT_DIR)

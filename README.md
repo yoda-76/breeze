@@ -16,16 +16,20 @@ VWAP (derived feature)
 Strategy -> Trades -> P&L -> Statistics
 ```
 
-Matches the raw JSON your existing `data_fetch_script.py` writes to
+Matches the raw JSON your existing `data_pipeline/data_fetch_script.py` writes to
 `data/raw/breeze/<SYMBOL>/1m/<YYYY>/<MM>/<YYYY-MM-DD>.json`.
 
 ```
-data_pipeline/
-├── config.py                     <- shared paths/constants
-├── validate_raw_data.py
-├── build_processed_dataset.py
-├── data_loader.py
-├── run_pipeline.py                <- validate -> build -> build features, all in one
+breeze/                             <- repo root
+├── data_loader.py                 <- the only module backtest/research code imports
+├── data_pipeline/                 <- download/validate/build scripts + their docs
+│   ├── config.py                  <- shared paths/constants
+│   ├── data_fetch_script.py
+│   ├── validate_raw_data.py
+│   ├── build_processed_dataset.py
+│   ├── run_pipeline.py            <- validate -> build -> build features, all in one
+│   ├── data_fetch_script.md
+│   └── data_structure.md
 ├── features/
 │   ├── __init__.py
 │   └── vwap.py                    <- VWAP formula + feature builder
@@ -60,7 +64,7 @@ pip install pandas pyarrow
 ## 1. Validate
 
 ```bash
-python validate_raw_data.py --symbol RELIND --interval 1m
+python data_pipeline/validate_raw_data.py --symbol RELIND --interval 1m
 ```
 
 Read-only - never touches `data/raw/`. Checks, per day and across the
@@ -90,7 +94,7 @@ JSON report is written alongside the console summary.
 ## 2. Build the processed dataset
 
 ```bash
-python build_processed_dataset.py --symbol RELIND --interval 1m
+python data_pipeline/build_processed_dataset.py --symbol RELIND --interval 1m
 ```
 
 Reads every raw daily JSON file, converts to the canonical schema:
@@ -112,8 +116,8 @@ each month is fully rebuilt from whatever raw days exist for it, so re-running
 after downloading more days just picks them up; it never duplicates rows.
 
 This script intentionally does **not** re-run the validation checks - run
-`validate_raw_data.py` (or `run_pipeline.py`, below) first and use your
-judgment on `WARNING`s.
+`data_pipeline/validate_raw_data.py` (or `data_pipeline/run_pipeline.py`,
+below) first and use your judgment on `WARNING`s.
 
 ## 3. Load data for a backtest
 
@@ -164,7 +168,7 @@ current formula even if you haven't rebuilt the feature dataset.
 ## All-in-one
 
 ```bash
-python run_pipeline.py --symbol RELIND --interval 1m
+python data_pipeline/run_pipeline.py --symbol RELIND --interval 1m
 ```
 
 Runs validation -> build the OHLCV dataset (only if no `CRITICAL` issues

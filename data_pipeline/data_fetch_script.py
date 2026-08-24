@@ -16,6 +16,11 @@ from breeze_connect import BreezeConnect
 
 load_dotenv()
 
+# Repo root (one level up from this file's own directory, data_pipeline/) -
+# used to anchor DATA_ROOT/logs defaults so they resolve correctly
+# regardless of the current working directory the script is run from.
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 
 # ============================================================
 # CONFIGURATION
@@ -61,7 +66,7 @@ MAX_RETRIES = int(
 
 DATA_ROOT = os.getenv(
     "DATA_ROOT",
-    "data/raw/breeze"
+    os.path.join(REPO_ROOT, "data", "raw", "breeze")
 )
 
 
@@ -442,8 +447,10 @@ os.makedirs(
 # LOGGING
 # ============================================================
 
+LOGS_DIR = os.path.join(REPO_ROOT, "logs")
+
 os.makedirs(
-    "logs",
+    LOGS_DIR,
     exist_ok=True
 )
 
@@ -454,7 +461,7 @@ run_timestamp = datetime.now().strftime(
 
 
 log_file = os.path.join(
-    "logs",
+    LOGS_DIR,
     f"{STOCK_CODE}_{INTERVAL}_{run_timestamp}.log"
 )
 

@@ -2,7 +2,7 @@
 Convenience wrapper: validate raw data -> build the processed Parquet
 dataset -> build derived features (VWAP).
 
-    python run_pipeline.py --symbol RELIND [--interval 1m]
+    python data_pipeline/run_pipeline.py --symbol RELIND [--interval 1m]
                             [--holidays data/nse_holidays.json]
                             [--force]         # build even if validation found CRITICAL issues
                             [--skip-features]  # stop after the OHLCV dataset, skip VWAP etc.
@@ -13,12 +13,18 @@ data/processed/features/).
 """
 
 import argparse
+import os
 import sys
 
-import config
-import validate_raw_data as validate
-import build_processed_dataset as build
-from features import vwap
+# features/ lives at the repo root, one level up from this file's own
+# directory (data_pipeline/) - add it to sys.path so `from features import
+# vwap` resolves regardless of the current working directory.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+import config  # noqa: E402
+import validate_raw_data as validate  # noqa: E402
+import build_processed_dataset as build  # noqa: E402
+from features import vwap  # noqa: E402
 
 
 def main():

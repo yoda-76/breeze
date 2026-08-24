@@ -17,7 +17,7 @@ whatever raw days now exist for that month, so newly-downloaded days get
 picked up automatically and re-running never duplicates rows.
 
 Usage:
-    python build_processed_dataset.py --symbol RELIND [--interval 1m]
+    python data_pipeline/build_processed_dataset.py --symbol RELIND [--interval 1m]
                                        [--skip-invalid-days]
 """
 

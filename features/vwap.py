@@ -30,7 +30,9 @@ import sys
 
 import pandas as pd
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+_ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root
+sys.path.insert(0, _ROOT_DIR)                                       # data_loader.py
+sys.path.insert(0, os.path.join(_ROOT_DIR, "data_pipeline"))         # config.py
 
 import config          # noqa: E402
 import data_loader      # noqa: E402

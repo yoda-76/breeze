@@ -118,9 +118,9 @@ Install with:
 
 py -m pip install breeze-connect python-dotenv
 
-Run the downloader with:
+Run the downloader with (from the repo root):
 
-py .\data_fetch_script.py
+py .\data_pipeline\data_fetch_script.py
 5. Known-working historical API request
 
 The user's original working request is:
@@ -648,25 +648,23 @@ then:
 Monday 09:00 -> Tuesday 15:45
 24. Project structure
 
-Recommended:
-
-backtest/
-└── breeze/
-    ├── .env
-    ├── .gitignore
-    ├── data_fetch_script.py
-    ├── data_fetch_script.md
-    ├── logs/
-    └── data/
-        └── raw/
-            └── breeze/
-                └── RELIND/
-                    └── 1m/
-                        └── 2026/
-                            ├── 01/
-                            ├── 02/
-                            ├── 03/
-                            └── ...
+breeze/                              <- repo root
+├── .env
+├── .gitignore
+├── data_pipeline/
+│   ├── data_fetch_script.py
+│   └── data_fetch_script.md         <- this file
+├── logs/
+└── data/
+    └── raw/
+        └── breeze/
+            └── RELIND/
+                └── 1m/
+                    └── 2026/
+                        ├── 01/
+                        ├── 02/
+                        ├── 03/
+                        └── ...
 25. Running
 
 From PowerShell:
@@ -675,7 +673,7 @@ cd C:\yadvendra\trading\backtest\breeze
 
 Then:
 
-py .\data_fetch_script.py
+py .\data_pipeline\data_fetch_script.py
 26. Troubleshooting authentication
 
 The user's small test script successfully performs:

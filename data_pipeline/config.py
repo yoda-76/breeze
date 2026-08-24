@@ -25,7 +25,14 @@ import os
 #                 └── 2026-02.parquet
 # ============================================================
 
-DATA_ROOT = os.getenv("DATA_ROOT", "data")
+DATA_ROOT = os.getenv(
+    "DATA_ROOT",
+    # Anchored to the repo root (one level up from this file's own
+    # directory, data_pipeline/), NOT the current working directory - so
+    # paths resolve correctly whether you run a script from breeze/,
+    # breeze/data_pipeline/, breeze/backtest/, or anywhere else.
+    os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data"),
+)
 
 RAW_ROOT = os.path.join(DATA_ROOT, "raw", "breeze")
 PROCESSED_ROOT = os.path.join(DATA_ROOT, "processed", "parquet")

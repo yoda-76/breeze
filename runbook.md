@@ -22,14 +22,14 @@ in `breeze_venv`; do not use a system Python installation for this project.
    requested again on the second pass.
 
    ```powershell
-   .\breeze_venv\Scripts\python.exe .\data_fetch_script.py
-   .\breeze_venv\Scripts\python.exe .\data_fetch_script.py
+   .\breeze_venv\Scripts\python.exe .\data_pipeline\data_fetch_script.py
+   .\breeze_venv\Scripts\python.exe .\data_pipeline\data_fetch_script.py
    ```
 
 3. Validate and process the downloaded data:
 
    ```powershell
-   .\breeze_venv\Scripts\python.exe .\run_pipeline.py --symbol RELIND --interval 1m
+   .\breeze_venv\Scripts\python.exe .\data_pipeline\run_pipeline.py --symbol RELIND --interval 1m
    ```
 
 Raw JSON goes to `data/raw/breeze/<SYMBOL>/1m/`; canonical monthly Parquet

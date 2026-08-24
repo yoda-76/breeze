@@ -19,10 +19,13 @@ Usage:
 
 import glob
 import os
+import sys
 
 import pandas as pd
 
-import config
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "data_pipeline"))
+
+import config  # noqa: E402
 
 
 class DataNotFoundError(FileNotFoundError):
