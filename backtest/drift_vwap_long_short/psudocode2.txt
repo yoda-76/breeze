@@ -1,0 +1,82 @@
+STRATEGY: Drift VWAP Pullback (NQ Futures)
+
+INSTRUMENT: Nasdaq 100 futures (NQ)
+CHARTS: 5-minute (execution) + 15-minute (trend/VWAP calc)
+VWAP: session-anchored, resets at 9:30 AM ET, calculated on 15-min bars,
+      plotted on the 5-min chart
+
+STATE:
+    position          = NONE          // LONG, SHORT, or NONE
+    trades_today       = 0
+    losses_today        = 0
+    trading_halted_today = FALSE
+
+ON EACH NEW 15-MIN BAR CLOSE:
+    IF current_time < 10:30 AM ET:
+        SKIP   // first hour reserved for VWAP to establish itself
+        CONTINUE
+
+    // ---- Trend / condition check (re-evaluated every 15 min) ----
+    long_conditions =
+        price > VWAP
+        AND VWAP_15min_ago < VWAP_now              // VWAP rising over past 15 min
+        AND pct_change(NQ_price, lookback=1_hour) >= +0.1%
+
+    short_conditions =
+        price < VWAP
+        AND VWAP_15min_ago > VWAP_now               // VWAP falling over past 15 min
+        AND pct_change(NQ_price, lookback=1_hour) <= -0.1%
+
+    IF long_conditions == TRUE:
+        active_bias = LONG
+    ELSE IF short_conditions == TRUE:
+        active_bias = SHORT
+    ELSE:
+        active_bias = NONE
+
+ON EACH NEW 5-MIN BAR CLOSE:
+    // ---- Guardrails: block new entries ----
+    IF position != NONE:
+        CONTINUE                       // one position at a time
+    IF trades_today >= 4:
+        CONTINUE                       // max 4 trades/day
+    IF losses_today >= 2:
+        CONTINUE                       // max 2 losses/day, stop trading
+    IF current_time >= 3:30 PM ET:
+        CONTINUE                       // no new trades after 3:30pm ET
+    IF current_time < 10:30 AM ET:
+        CONTINUE
+
+    vwap_hit = (candle_low <= VWAP <= candle_high)   // price touches/crosses VWAP within the candle's range
+
+    // ---- Trigger: first pullback candle toward VWAP that actually reaches it ----
+    IF active_bias == LONG AND candle_is_red(current_5min_candle) AND vwap_hit:
+        ENTER LONG at MARKET on OPEN of next 5-min candle
+        stop_loss   = entry_price - 80 points
+        take_profit = entry_price + 40 points
+        trades_today += 1
+
+    ELSE IF active_bias == SHORT AND candle_is_green(current_5min_candle) AND vwap_hit:
+        ENTER SHORT at MARKET on OPEN of next 5-min candle
+        stop_loss   = entry_price + 80 points
+        take_profit = entry_price - 50 points
+        trades_today += 1
+        
+ON POSITION OPEN, MONITOR EVERY TICK/BAR:
+    IF price hits stop_loss:
+        CLOSE position -> record as LOSS
+        losses_today += 1
+        position = NONE
+    ELSE IF price hits take_profit:
+        CLOSE position -> record as WIN
+        position = NONE
+
+// ---- End-of-day forced flatten ----
+AT 3:55 PM ET:
+    IF position != NONE:
+        CLOSE position at MARKET
+
+AT END OF DAY (e.g. 4:00 PM ET / after close):
+    RESET trades_today = 0
+    RESET losses_today = 0
+    RESET position = NONE

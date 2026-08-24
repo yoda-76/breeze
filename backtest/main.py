@@ -216,7 +216,7 @@ def validate_trades(trades_df):
     ]].copy()
 
 
-def apply_transaction_costs(trades_df, cost_per_trade):
+def apply_transaction_costs(trades_df, cost_per_trade, slippage_per_share=0.0):
     """Apply one fixed round-trip cost to every completed trade.
 
     ``cost_per_trade`` covers both entry and exit.  Gross P&L is retained in
@@ -227,10 +227,13 @@ def apply_transaction_costs(trades_df, cost_per_trade):
     if result.empty:
         result["gross_pnl"] = pd.Series(dtype=float)
         result["transaction_cost"] = pd.Series(dtype=float)
+        result["slippage_cost"] = pd.Series(dtype=float)
         return result
     result["gross_pnl"] = result["pnl"]
     result["transaction_cost"] = float(cost_per_trade)
-    result["pnl"] = result["gross_pnl"] - result["transaction_cost"]
+    # Entry and exit each incur the configured adverse price movement.
+    result["slippage_cost"] = 2 * result["quantity"] * float(slippage_per_share)
+    result["pnl"] = result["gross_pnl"] - result["transaction_cost"] - result["slippage_cost"]
     notional = result["entry_price"] * result["quantity"]
     result["pnl_pct"] = result["pnl"] / notional * 100
     return result
@@ -352,6 +355,8 @@ def run(strategy_name=None):
     # Strategy.  Most strategies use the simple target-position contract.
     # Strategies with intrabar execution (stops/targets) may instead expose
     # generate_trades(df, quantity), which returns the standard trade ledger.
+    if hasattr(strategy, "configure"):
+        strategy.configure(bt_config)
     if hasattr(strategy, "generate_trades"):
         trades_df = validate_trades(strategy.generate_trades(df, bt_config.QUANTITY))
     else:
@@ -360,7 +365,8 @@ def run(strategy_name=None):
     print(f"Generated {len(trades_df)} trade(s)")
 
     transaction_cost = float(getattr(bt_config, "TRANSACTION_COST_PER_TRADE", 0.0))
-    trades_df = apply_transaction_costs(trades_df, transaction_cost)
+    slippage = float(getattr(bt_config, "SLIPPAGE_PER_SHARE", 0.0))
+    trades_df = apply_transaction_costs(trades_df, transaction_cost, slippage)
 
     # P&L
     equity_curve = build_equity_curve(trades_df, bt_config.INITIAL_CAPITAL)
@@ -369,8 +375,14 @@ def run(strategy_name=None):
     stats = compute_statistics(trades_df, equity_curve, bt_config.INITIAL_CAPITAL)
     stats["transaction_cost_per_trade"] = transaction_cost
     stats["total_transaction_cost"] = round(trades_df["transaction_cost"].sum(), 2)
+    stats["slippage_per_share_per_fill"] = slippage
+    stats["total_slippage_cost"] = round(trades_df["slippage_cost"].sum(), 2)
     stats["gross_pnl"] = round(trades_df["gross_pnl"].sum(), 2)
     accuracy = compute_vwap_accuracy(df, timeframes)
+
+        # also add sl, tp, position size, 
+        #also add a indicator that shows how much the pnl went into profit before the sl was hit, and how much the pnl went into loss before the tp was hit. This will help to understand if the sl and tp are set correctly
+
 
     # Reports
     report_name = getattr(bt_config, "REPORT_NAME", None)
